@@ -1,0 +1,496 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblLogPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 12</value>
+  </data>
+  <data name="lblLogPath.Text" xml:space="preserve">
+    <value>로그 경로</value>
+  </data>
+  <data name="lblLogPathNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 12</value>
+  </data>
+  <data name="lblLogPathNote.Text" xml:space="preserve">
+    <value>* 이것을 설정할 필요는 없습니다. 프로그램이 올바른 경로를 읽지 못하는 경우에만 사용하십시오.</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>저장</value>
+  </data>
+  <data name="chkOnlyShowGold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 16</value>
+  </data>
+  <data name="chkOnlyShowGold.Text" xml:space="preserve">
+    <value>금메달만 표시</value>
+  </data>
+  <data name="chkOnlyShowQualify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 16</value>
+  </data>
+  <data name="chkOnlyShowQualify.Text" xml:space="preserve">
+    <value>성공만 표시</value>
+  </data>
+  <data name="chkCycleQualifyGold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 16</value>
+  </data>
+  <data name="chkCycleQualifyGold.Text" xml:space="preserve">
+    <value>성공 / 금메달 반복 전환</value>
+  </data>
+  <data name="chkOnlyShowLongest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 16</value>
+  </data>
+  <data name="chkOnlyShowLongest.Text" xml:space="preserve">
+    <value>최장시간만 표시</value>
+  </data>
+  <data name="chkOnlyShowFastest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 16</value>
+  </data>
+  <data name="chkOnlyShowFastest.Text" xml:space="preserve">
+    <value>최단시간만 표시</value>
+  </data>
+  <data name="chkCycleFastestLongest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 16</value>
+  </data>
+  <data name="chkCycleFastestLongest.Text" xml:space="preserve">
+    <value>최단시간 / 최장시간 반복</value>
+  </data>
+  <data name="chkHidePercentages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 16</value>
+  </data>
+  <data name="chkHidePercentages.Text" xml:space="preserve">
+    <value>퍼센트 숨기기</value>
+  </data>
+  <data name="chkHideWinsInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 16</value>
+  </data>
+  <data name="chkHideWinsInfo.Text" xml:space="preserve">
+    <value>우승 정보 숨기기</value>
+  </data>
+  <data name="cboOverlayColor.Items" xml:space="preserve">
+    <value>투명</value>
+  </data>
+  <data name="cboOverlayColor.Items1" xml:space="preserve">
+    <value>마젠타</value>
+  </data>
+  <data name="cboOverlayColor.Items2" xml:space="preserve">
+    <value>빨강</value>
+  </data>
+  <data name="cboOverlayColor.Items3" xml:space="preserve">
+    <value>초록</value>
+  </data>
+  <data name="cboOverlayColor.Items4" xml:space="preserve">
+    <value>파랑</value>
+  </data>
+  <data name="cboOverlayColor.Items5" xml:space="preserve">
+    <value>검정</value>
+  </data>
+  <data name="lblOverlayColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>479, 141</value>
+  </data>
+  <data name="lblOverlayColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="lblOverlayColor.Text" xml:space="preserve">
+    <value>배경색</value>
+  </data>
+  <data name="chkFlipped.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="chkFlipped.Text" xml:space="preserve">
+    <value>오버레이 배경 좌우반전</value>
+  </data>
+  <data name="chkShowTabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 16</value>
+  </data>
+  <data name="chkShowTabs.Text" xml:space="preserve">
+    <value>현재 필터 이름 표시</value>
+  </data>
+  <data name="chkHideTimeInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 16</value>
+  </data>
+  <data name="chkHideTimeInfo.Text" xml:space="preserve">
+    <value>시간 정보 숨기기</value>
+  </data>
+  <data name="chkHideRoundInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 16</value>
+  </data>
+  <data name="chkHideRoundInfo.Text" xml:space="preserve">
+    <value>라운드 정보 숨기기</value>
+  </data>
+  <data name="cboLanguage.AutoCompleteCustomSource" xml:space="preserve">
+    <value>시스템 언어 사용</value>
+  </data>
+  <data name="cboLanguage.AutoCompleteCustomSource1" xml:space="preserve">
+    <value>English | en</value>
+  </data>
+  <data name="cboLanguage.AutoCompleteCustomSource2" xml:space="preserve">
+    <value>Korean | ko-KR</value>
+  </data>
+  <data name="cboLanguage.Items" xml:space="preserve">
+    <value>시스템 언어 사용</value>
+  </data>
+  <data name="cboLanguage.Items1" xml:space="preserve">
+    <value>영어</value>
+  </data>
+  <data name="cboLanguage.Items2" xml:space="preserve">
+    <value>한국어</value>
+  </data>
+  <data name="lblLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 105</value>
+  </data>
+  <data name="lblLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="lblLanguage.Text" xml:space="preserve">
+    <value>언어</value>
+  </data>
+  <data name="cboFastestFilter.Items" xml:space="preserve">
+    <value>모든 시간 통계</value>
+  </data>
+  <data name="cboFastestFilter.Items1" xml:space="preserve">
+    <value>통계 및 파티 필터</value>
+  </data>
+  <data name="cboFastestFilter.Items2" xml:space="preserve">
+    <value>시즌 통계</value>
+  </data>
+  <data name="cboFastestFilter.Items3" xml:space="preserve">
+    <value>주 통계</value>
+  </data>
+  <data name="cboFastestFilter.Items4" xml:space="preserve">
+    <value>일 통계</value>
+  </data>
+  <data name="cboFastestFilter.Items5" xml:space="preserve">
+    <value>세션 통계</value>
+  </data>
+  <data name="lblFastestFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 66</value>
+  </data>
+  <data name="lblFastestFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 12</value>
+  </data>
+  <data name="lblFastestFilter.Text" xml:space="preserve">
+    <value>최단시간 / 최장시간 필터</value>
+  </data>
+  <data name="cboQualifyFilter.Items" xml:space="preserve">
+    <value>모든 시간 통계</value>
+  </data>
+  <data name="cboQualifyFilter.Items1" xml:space="preserve">
+    <value>통계 및 파티 필터</value>
+  </data>
+  <data name="cboQualifyFilter.Items2" xml:space="preserve">
+    <value>시즌 통계</value>
+  </data>
+  <data name="cboQualifyFilter.Items3" xml:space="preserve">
+    <value>주 통계</value>
+  </data>
+  <data name="cboQualifyFilter.Items4" xml:space="preserve">
+    <value>일 통계</value>
+  </data>
+  <data name="cboQualifyFilter.Items5" xml:space="preserve">
+    <value>세션 통계</value>
+  </data>
+  <data name="lblQualifyFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>413, 43</value>
+  </data>
+  <data name="lblQualifyFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 12</value>
+  </data>
+  <data name="lblQualifyFilter.Text" xml:space="preserve">
+    <value>성공 / 금메달 필터</value>
+  </data>
+  <data name="cboWinsFilter.Items" xml:space="preserve">
+    <value>모든 시간 통계</value>
+  </data>
+  <data name="cboWinsFilter.Items1" xml:space="preserve">
+    <value>통계 및 파티 필터</value>
+  </data>
+  <data name="cboWinsFilter.Items2" xml:space="preserve">
+    <value>시즌 통계</value>
+  </data>
+  <data name="cboWinsFilter.Items3" xml:space="preserve">
+    <value>주 통계</value>
+  </data>
+  <data name="cboWinsFilter.Items4" xml:space="preserve">
+    <value>일 통계</value>
+  </data>
+  <data name="cboWinsFilter.Items5" xml:space="preserve">
+    <value>세션 통계</value>
+  </data>
+  <data name="lblWinsFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>425, 20</value>
+  </data>
+  <data name="lblWinsFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 12</value>
+  </data>
+  <data name="lblWinsFilter.Text" xml:space="preserve">
+    <value>우승 / 결승 필터</value>
+  </data>
+  <data name="chkOverlayOnTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 16</value>
+  </data>
+  <data name="chkOverlayOnTop.Text" xml:space="preserve">
+    <value>항상 위</value>
+  </data>
+  <data name="lblCycleTimeSecondsTag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 139</value>
+  </data>
+  <data name="lblCycleTimeSecondsTag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 12</value>
+  </data>
+  <data name="lblCycleTimeSecondsTag.Text" xml:space="preserve">
+    <value>초</value>
+  </data>
+  <data name="lblCycleTimeSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 12</value>
+  </data>
+  <data name="lblCycleTimeSeconds.Text" xml:space="preserve">
+    <value>전환 시간</value>
+  </data>
+  <data name="txtCycleTimeSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 137</value>
+  </data>
+  <data name="chkOnlyShowFinalStreak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 16</value>
+  </data>
+  <data name="chkOnlyShowFinalStreak.Text" xml:space="preserve">
+    <value>연속결승진출만 표시</value>
+  </data>
+  <data name="chkOnlyShowWinStreak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 16</value>
+  </data>
+  <data name="chkOnlyShowWinStreak.Text" xml:space="preserve">
+    <value>연승만 표시</value>
+  </data>
+  <data name="chkCycleWinFinalStreak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 16</value>
+  </data>
+  <data name="chkCycleWinFinalStreak.Text" xml:space="preserve">
+    <value>연속 우승 / 결승 진축 반복</value>
+  </data>
+  <data name="chkOnlyShowPing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 16</value>
+  </data>
+  <data name="chkOnlyShowPing.Text" xml:space="preserve">
+    <value>핑만 표시</value>
+  </data>
+  <data name="chkOnlyShowPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 16</value>
+  </data>
+  <data name="chkOnlyShowPlayers.Text" xml:space="preserve">
+    <value>플레이어만 표시</value>
+  </data>
+  <data name="chkCyclePlayersPing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 16</value>
+  </data>
+  <data name="chkCyclePlayersPing.Text" xml:space="preserve">
+    <value>플레이어 / 핑 반복 전환</value>
+  </data>
+  <data name="lblOverlayFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 12</value>
+  </data>
+  <data name="lblOverlayFont.Text" xml:space="preserve">
+    <value>오버레이 폰트 커스텀</value>
+  </data>
+  <data name="btnSelectFont.Font" type="System.Drawing.Font, System.Drawing">
+    <value>굴림, 8pt</value>
+  </data>
+  <data name="btnSelectFont.Text" xml:space="preserve">
+    <value>폰트 선택</value>
+  </data>
+  <data name="btnResetOverlayFont.Font" type="System.Drawing.Font, System.Drawing">
+    <value>굴림, 8pt</value>
+  </data>
+  <data name="btnResetOverlayFont.Text" xml:space="preserve">
+    <value>폰트 초기화</value>
+  </data>
+  <data name="lblOverlayFontExample.Text" xml:space="preserve">
+    <value>3라운드: 눈 굴러와유</value>
+  </data>
+  <data name="grpOverlayFontExample.Text" xml:space="preserve">
+    <value>예시</value>
+  </data>
+  <data name="grpOverlay.Text" xml:space="preserve">
+    <value>오버레이</value>
+  </data>
+  <data name="chkChangeHoopsieLegends.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 16</value>
+  </data>
+  <data name="chkChangeHoopsieLegends.Text" xml:space="preserve">
+    <value>후프의 전설을 Hoopsie Heroes로 변경</value>
+  </data>
+  <data name="chkAutoUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 16</value>
+  </data>
+  <data name="chkAutoUpdate.Text" xml:space="preserve">
+    <value>프로그램 자동 업데이트</value>
+  </data>
+  <data name="lblPreviousWinsNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 12</value>
+  </data>
+  <data name="lblPreviousWinsNote.Text" xml:space="preserve">
+    <value>(트래커 사용 이전)</value>
+  </data>
+  <data name="lblPreviousWins.Text" xml:space="preserve">
+    <value>이전 우승 횟수</value>
+  </data>
+  <data name="grpStats.Text" xml:space="preserve">
+    <value>통계</value>
+  </data>
+  <data name="lblGameExeLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 12</value>
+  </data>
+  <data name="lblGameExeLocation.Text" xml:space="preserve">
+    <value>폴가이즈 게임 경로</value>
+  </data>
+  <data name="txtGameExeLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 18</value>
+  </data>
+  <data name="txtGameExeLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>548, 21</value>
+  </data>
+  <data name="btnGameExeLocationBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 17</value>
+  </data>
+  <data name="btnGameExeLocationBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="btnGameExeLocationBrowse.Text" xml:space="preserve">
+    <value>찾아보기</value>
+  </data>
+  <data name="chkAutoLaunchGameOnStart.Text" xml:space="preserve">
+    <value>트래커 시작 시 폴가이즈 자동 시작</value>
+  </data>
+  <data name="grpGameOptions.Text" xml:space="preserve">
+    <value>게임 옵션</value>
+  </data>
+  <data name="chkIgnoreLevelTypeWhenSorting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 16</value>
+  </data>
+  <data name="chkIgnoreLevelTypeWhenSorting.Text" xml:space="preserve">
+    <value>정렬 시 레벨 종류 무시</value>
+  </data>
+  <data name="grpSortingOptions.Text" xml:space="preserve">
+    <value>정렬 옵션</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>설정</value>
+  </data>
+</root>

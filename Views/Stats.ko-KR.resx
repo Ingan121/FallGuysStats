@@ -118,270 +118,119 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>634, 620</value>
+  <data name="menuSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
   </data>
-  <data name="&gt;&gt;gridDetails.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="menuSettings.Text" xml:space="preserve">
+    <value>설정</value>
   </data>
-  <data name="&gt;&gt;menuStatsFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuProfile.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;gridDetails.Type" xml:space="preserve">
-    <value>FallGuysStats.Grid, FallGuysStats, Version=1.126.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="menuDayStats.Text" xml:space="preserve">
-    <value>Day</value>
-  </data>
-  <data name="menuPartyStats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
-  </data>
-  <data name="menuProfileMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 22</value>
-  </data>
-  <data name="&gt;&gt;lblTotalRounds.Name" xml:space="preserve">
-    <value>lblTotalRounds</value>
-  </data>
-  <data name="menuProfilePractice.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 22</value>
-  </data>
-  <data name="&gt;&gt;menuSoloStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuSoloStats.Name" xml:space="preserve">
-    <value>menuSoloStats</value>
-  </data>
-  <data name="&gt;&gt;menuAllStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuPartyFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 22</value>
-  </data>
-  <data name="&gt;&gt;menuUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menu.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuAllStats.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Shift+A</value>
-  </data>
-  <data name="&gt;&gt;lblTotalShows.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuLaunchFallGuys.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 20</value>
-  </data>
-  <data name="lblKudos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>49, 13</value>
-  </data>
-  <data name="menuUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 20</value>
-  </data>
-  <data name="menuSessionStats.Text" xml:space="preserve">
-    <value>Session</value>
-  </data>
-  <data name="&gt;&gt;menuFilters.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuStatsFilter.Text" xml:space="preserve">
-    <value>Stats</value>
-  </data>
-  <data name="menuAllPartyStats.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Shift+F</value>
-  </data>
-  <data name="lblTotalWins.Text" xml:space="preserve">
-    <value>Wins: 0 (0.0 %)</value>
-  </data>
-  <data name="menuFilters.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="menuWeekStats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="menuUpdate.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+U</value>
-  </data>
-  <data name="&gt;&gt;menuDayStats.Name" xml:space="preserve">
-    <value>menuDayStats</value>
-  </data>
-  <data name="&gt;&gt;lblTotalWins.Name" xml:space="preserve">
-    <value>lblTotalWins</value>
-  </data>
-  <data name="&gt;&gt;menu.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="menuAllStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
   </data>
   <data name="menuAllStats.Text" xml:space="preserve">
-    <value>All</value>
-  </data>
-  <data name="&gt;&gt;menuWeekStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuStatsFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 22</value>
-  </data>
-  <data name="&gt;&gt;menuFilters.Name" xml:space="preserve">
-    <value>menuFilters</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>Stats</value>
-  </data>
-  <data name="&gt;&gt;lblTotalFinals.Name" xml:space="preserve">
-    <value>lblTotalFinals</value>
-  </data>
-  <data name="&gt;&gt;lblTotalShows.Name" xml:space="preserve">
-    <value>lblTotalShows</value>
-  </data>
-  <data name="&gt;&gt;lblTotalTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblTotalTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 13</value>
-  </data>
-  <data name="lblTotalRounds.Text" xml:space="preserve">
-    <value>Rounds: 0</value>
-  </data>
-  <data name="&gt;&gt;infoStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;infoStrip.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;menuDayStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuPartyFilter.Name" xml:space="preserve">
-    <value>menuPartyFilter</value>
-  </data>
-  <data name="menuSoloStats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
-  </data>
-  <data name="&gt;&gt;infoStrip.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="menuSeasonStats.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Shift+S</value>
-  </data>
-  <data name="&gt;&gt;menuProfileMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 20</value>
-  </data>
-  <data name="menuWeekStats.Text" xml:space="preserve">
-    <value>Week</value>
-  </data>
-  <data name="menuPartyStats.Text" xml:space="preserve">
-    <value>Party</value>
-  </data>
-  <data name="&gt;&gt;menuProfilePractice.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>전체</value>
   </data>
   <data name="menuSeasonStats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
+    <value>173, 22</value>
   </data>
-  <data name="menuOverlay.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+O</value>
+  <data name="menuSeasonStats.Text" xml:space="preserve">
+    <value>시즌</value>
   </data>
-  <data name="menuProfilePractice.Text" xml:space="preserve">
-    <value>Practice</value>
+  <data name="menuWeekStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
   </data>
-  <data name="menuOverlay.Size" type="System.Drawing.Size, System.Drawing">
-    <value>59, 20</value>
-  </data>
-  <data name="gridDetails.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 570</value>
-  </data>
-  <data name="menuLaunchFallGuys.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Segoe UI, 9pt, style=Bold</value>
-  </data>
-  <data name="infoStrip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 23</value>
-  </data>
-  <data name="menuProfileMain.Text" xml:space="preserve">
-    <value>Main</value>
-  </data>
-  <data name="&gt;&gt;menuPartyStats.Name" xml:space="preserve">
-    <value>menuPartyStats</value>
-  </data>
-  <data name="&gt;&gt;menu.Name" xml:space="preserve">
-    <value>menu</value>
-  </data>
-  <data name="&gt;&gt;menuSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuSessionStats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="lblTotalWins.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 13</value>
-  </data>
-  <data name="menuLaunchFallGuys.Text" xml:space="preserve">
-    <value>Launch Fall Guys</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>650, 300</value>
+  <data name="menuWeekStats.Text" xml:space="preserve">
+    <value>주</value>
   </data>
   <data name="menuDayStats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
+    <value>173, 22</value>
   </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Fall Guys Stats</value>
+  <data name="menuDayStats.Text" xml:space="preserve">
+    <value>일</value>
   </data>
-  <data name="&gt;&gt;menuUpdate.Name" xml:space="preserve">
-    <value>menuUpdate</value>
+  <data name="menuSessionStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
   </data>
-  <data name="&gt;&gt;lblTotalFinals.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuSessionStats.Text" xml:space="preserve">
+    <value>세션</value>
   </data>
-  <data name="lblTotalTime.Text" xml:space="preserve">
-    <value>Time Played: 0:00:00</value>
+  <data name="menuStatsFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
   </data>
-  <data name="lblTotalShows.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 13</value>
+  <data name="menuStatsFilter.Text" xml:space="preserve">
+    <value>통계</value>
   </data>
-  <data name="&gt;&gt;menuSessionStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuAllPartyStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
   </data>
-  <data name="&gt;&gt;menuAllPartyStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuAllPartyStats.Text" xml:space="preserve">
+    <value>전체</value>
   </data>
-  <data name="&gt;&gt;menuHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuSoloStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
   </data>
-  <data name="&gt;&gt;menuWeekStats.Name" xml:space="preserve">
-    <value>menuWeekStats</value>
+  <data name="menuSoloStats.Text" xml:space="preserve">
+    <value>솔로</value>
   </data>
-  <data name="menuWeekStats.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Shift+W</value>
+  <data name="menuPartyStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 22</value>
   </data>
-  <data name="&gt;&gt;menuOverlay.Name" xml:space="preserve">
-    <value>menuOverlay</value>
+  <data name="menuPartyStats.Text" xml:space="preserve">
+    <value>파티</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuPartyFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
   </data>
-  <data name="lblKudos.Text" xml:space="preserve">
-    <value>Kudos: 0</value>
+  <data name="menuPartyFilter.Text" xml:space="preserve">
+    <value>파티</value>
   </data>
-  <data name="&gt;&gt;lblTotalWins.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="menuFilters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
   </data>
-  <data name="lblTotalFinals.Text" xml:space="preserve">
-    <value>Finals: 0 (0.0 %)</value>
+  <data name="menuFilters.Text" xml:space="preserve">
+    <value>필터</value>
   </data>
-  <data name="menu.Text" xml:space="preserve">
-    <value>menuStrip1</value>
+  <data name="menuProfileMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
   </data>
-  <data name="menuDayStats.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Shift+D</value>
+  <data name="menuProfileMain.Text" xml:space="preserve">
+    <value>메인</value>
+  </data>
+  <data name="menuProfilePractice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
+  </data>
+  <data name="menuProfilePractice.Text" xml:space="preserve">
+    <value>연습</value>
+  </data>
+  <data name="menuProfile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="menuProfile.Text" xml:space="preserve">
+    <value>프로필</value>
+  </data>
+  <data name="menuOverlay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="menuOverlay.Text" xml:space="preserve">
+    <value>오버레이</value>
+  </data>
+  <data name="menuUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="menuUpdate.Text" xml:space="preserve">
+    <value>업데이트</value>
+  </data>
+  <data name="menuHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="menuHelp.Text" xml:space="preserve">
+    <value>도움말</value>
+  </data>
+  <data name="menuLaunchFallGuys.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 20</value>
+  </data>
+  <data name="menuLaunchFallGuys.Text" xml:space="preserve">
+    <value>폴가이즈 실행</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -670,188 +519,4 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
-  <data name="menuAllPartyStats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 22</value>
-  </data>
-  <data name="&gt;&gt;menuSeasonStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuFilters.Text" xml:space="preserve">
-    <value>Filters</value>
-  </data>
-  <data name="&gt;&gt;menuSeasonStats.Name" xml:space="preserve">
-    <value>menuSeasonStats</value>
-  </data>
-  <data name="menuAllPartyStats.Text" xml:space="preserve">
-    <value>All</value>
-  </data>
-  <data name="menuSettings.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="menuProfile.Text" xml:space="preserve">
-    <value>Profile</value>
-  </data>
-  <data name="&gt;&gt;menuStatsFilter.Name" xml:space="preserve">
-    <value>menuStatsFilter</value>
-  </data>
-  <data name="menuSettings.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+S</value>
-  </data>
-  <data name="gridDetails.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 50</value>
-  </data>
-  <data name="&gt;&gt;menuAllPartyStats.Name" xml:space="preserve">
-    <value>menuAllPartyStats</value>
-  </data>
-  <data name="&gt;&gt;menuSessionStats.Name" xml:space="preserve">
-    <value>menuSessionStats</value>
-  </data>
-  <data name="menuSoloStats.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Shift+O</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menu.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;lblKudos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuSeasonStats.Text" xml:space="preserve">
-    <value>Season</value>
-  </data>
-  <data name="&gt;&gt;menu.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuProfile.Name" xml:space="preserve">
-    <value>menuProfile</value>
-  </data>
-  <data name="&gt;&gt;menuLaunchFallGuys.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuSessionStats.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Shift+G</value>
-  </data>
-  <data name="menuHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 20</value>
-  </data>
-  <data name="gridDetails.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;gridDetails.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="menuPartyStats.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+Shift+P</value>
-  </data>
-  <data name="&gt;&gt;lblTotalTime.Name" xml:space="preserve">
-    <value>lblTotalTime</value>
-  </data>
-  <data name="menuSoloStats.Text" xml:space="preserve">
-    <value>Solo</value>
-  </data>
-  <data name="menuHelp.Text" xml:space="preserve">
-    <value>Help</value>
-  </data>
-  <data name="menuUpdate.Text" xml:space="preserve">
-    <value>Update</value>
-  </data>
-  <data name="&gt;&gt;menuAllStats.Name" xml:space="preserve">
-    <value>menuAllStats</value>
-  </data>
-  <data name="&gt;&gt;menuOverlay.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="infoStrip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 24</value>
-  </data>
-  <data name="lblTotalFinals.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 13</value>
-  </data>
-  <data name="&gt;&gt;menuProfilePractice.Name" xml:space="preserve">
-    <value>menuProfilePractice</value>
-  </data>
-  <data name="&gt;&gt;lblTotalRounds.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menu.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuAllStats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 22</value>
-  </data>
-  <data name="&gt;&gt;gridDetails.Name" xml:space="preserve">
-    <value>gridDetails</value>
-  </data>
-  <data name="&gt;&gt;menuProfileMain.Name" xml:space="preserve">
-    <value>menuProfileMain</value>
-  </data>
-  <data name="&gt;&gt;menuPartyStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="infoStrip.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="infoStrip.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 8.25pt</value>
-  </data>
-  <data name="menuOverlay.Text" xml:space="preserve">
-    <value>Overlay</value>
-  </data>
-  <data name="menuHelp.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+H</value>
-  </data>
-  <data name="menu.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 24</value>
-  </data>
-  <data name="infoStrip.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 6, 1, 1</value>
-  </data>
-  <data name="lblTotalRounds.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 13</value>
-  </data>
-  <data name="&gt;&gt;menuSettings.Name" xml:space="preserve">
-    <value>menuSettings</value>
-  </data>
-  <data name="&gt;&gt;menuLaunchFallGuys.Name" xml:space="preserve">
-    <value>menuLaunchFallGuys</value>
-  </data>
-  <data name="menuProfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
-  </data>
-  <data name="&gt;&gt;menuHelp.Name" xml:space="preserve">
-    <value>menuHelp</value>
-  </data>
-  <data name="gridDetails.ColumnHeadersHeight" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="gridDetails.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="lblTotalShows.Text" xml:space="preserve">
-    <value>Shows: 0</value>
-  </data>
-  <data name="&gt;&gt;lblKudos.Name" xml:space="preserve">
-    <value>lblKudos</value>
-  </data>
-  <data name="menuPartyFilter.Text" xml:space="preserve">
-    <value>Party</value>
-  </data>
-  <data name="&gt;&gt;menuPartyFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;infoStrip.Name" xml:space="preserve">
-    <value>infoStrip</value>
-  </data>
-  <metadata name="infoStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>96, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ko-KR</value>
-  </metadata>
-  <metadata name="menu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
 </root>

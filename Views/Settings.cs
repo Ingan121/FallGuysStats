@@ -60,36 +60,41 @@ namespace FallGuysStats {
             chkChangeHoopsieLegends.Checked = CurrentSettings.HoopsieHeros;
 
             switch (CurrentSettings.OverlayColor) {
-                case 0: cboOverlayColor.SelectedItem = "Magenta"; break;
-                case 1: cboOverlayColor.SelectedItem = "Blue"; break;
-                case 2: cboOverlayColor.SelectedItem = "Red"; break;
-                case 3: cboOverlayColor.SelectedItem = "Transparent"; break;
-                case 4: cboOverlayColor.SelectedItem = "Black"; break;
-                case 5: cboOverlayColor.SelectedItem = "Green"; break;
+                case 0: cboOverlayColor.SelectedIndex = 1; break; // Magenta
+                case 1: cboOverlayColor.SelectedIndex = 4; break; // Blue
+                case 2: cboOverlayColor.SelectedIndex = 2; break; // Red
+                case 3: cboOverlayColor.SelectedIndex = 0; break; // Transparent
+                case 4: cboOverlayColor.SelectedIndex = 5; break; // Black
+                case 5: cboOverlayColor.SelectedIndex = 3; break; // Green
             }
             switch (CurrentSettings.WinsFilter) {
-                case 0: cboWinsFilter.SelectedItem = "Stats and Party Filter"; break;
-                case 1: cboWinsFilter.SelectedItem = "Season Stats"; break;
-                case 2: cboWinsFilter.SelectedItem = "Week Stats"; break;
-                case 3: cboWinsFilter.SelectedItem = "All Time Stats"; break;
-                case 4: cboWinsFilter.SelectedItem = "Day Stats"; break;
-                case 5: cboWinsFilter.SelectedItem = "Session Stats"; break;
+                case 0: cboWinsFilter.SelectedIndex = 1; break; // Stats and Party Filter
+                case 1: cboWinsFilter.SelectedIndex = 2; break; // Season Stats
+                case 2: cboWinsFilter.SelectedIndex = 3; break; // Week Stats
+                case 3: cboWinsFilter.SelectedIndex = 0; break; // All Time Stats
+                case 4: cboWinsFilter.SelectedIndex = 4; break; // Day Stats
+                case 5: cboWinsFilter.SelectedIndex = 5; break; // Session Stats
             }
             switch (CurrentSettings.QualifyFilter) {
-                case 0: cboQualifyFilter.SelectedItem = "All Time Stats"; break;
-                case 1: cboQualifyFilter.SelectedItem = "Stats and Party Filter"; break;
-                case 2: cboQualifyFilter.SelectedItem = "Season Stats"; break;
-                case 3: cboQualifyFilter.SelectedItem = "Week Stats"; break;
-                case 4: cboQualifyFilter.SelectedItem = "Day Stats"; break;
-                case 5: cboQualifyFilter.SelectedItem = "Session Stats"; break;
+                case 0: cboQualifyFilter.SelectedIndex = 0; break; // All Time Stats
+                case 1: cboQualifyFilter.SelectedIndex = 1; break; // Stats and Party Filter
+                case 2: cboQualifyFilter.SelectedIndex = 2; break; // Season Stats
+                case 3: cboQualifyFilter.SelectedIndex = 3; break; // Week Stats
+                case 4: cboQualifyFilter.SelectedIndex = 4; break; // Day Stats
+                case 5: cboQualifyFilter.SelectedIndex = 5; break; // Session Stats
             }
             switch (CurrentSettings.FastestFilter) {
-                case 0: cboFastestFilter.SelectedItem = "All Time Stats"; break;
-                case 1: cboFastestFilter.SelectedItem = "Stats and Party Filter"; break;
-                case 2: cboFastestFilter.SelectedItem = "Season Stats"; break;
-                case 3: cboFastestFilter.SelectedItem = "Week Stats"; break;
-                case 4: cboFastestFilter.SelectedItem = "Day Stats"; break;
-                case 5: cboFastestFilter.SelectedItem = "Session Stats"; break;
+                case 0: cboFastestFilter.SelectedIndex = 0; break; // All Time Stats
+                case 1: cboFastestFilter.SelectedIndex = 1; break; // Stats and Party Filter
+                case 2: cboFastestFilter.SelectedIndex = 2; break; // Season Stats
+                case 3: cboFastestFilter.SelectedIndex = 3; break; // Week Stats
+                case 4: cboFastestFilter.SelectedIndex = 4; break; // Day Stats
+                case 5: cboFastestFilter.SelectedIndex = 5; break; // Session Stats
+            }
+            switch (CurrentSettings.Language) {
+                case 0: cboLanguage.SelectedIndex = 0; break; // Use System Language
+                case 1: cboLanguage.SelectedIndex = 1; break; // English
+                case 2: cboLanguage.SelectedIndex = 2; break; // Korean
             }
 
             txtGameExeLocation.Text = CurrentSettings.GameExeLocation;
@@ -185,37 +190,42 @@ namespace FallGuysStats {
             CurrentSettings.HideOverlayPercentages = chkHidePercentages.Checked;
             CurrentSettings.HoopsieHeros = chkChangeHoopsieLegends.Checked;
 
-            switch ((string)cboOverlayColor.SelectedItem) {
-                case "Magenta": CurrentSettings.OverlayColor = 0; break;
-                case "Blue": CurrentSettings.OverlayColor = 1; break;
-                case "Red": CurrentSettings.OverlayColor = 2; break;
-                case "Transparent": CurrentSettings.OverlayColor = 3; break;
-                case "Black": CurrentSettings.OverlayColor = 4; break;
-                case "Green": CurrentSettings.OverlayColor = 5; break;
+            switch (cboOverlayColor.SelectedIndex) {
+                case 1: CurrentSettings.OverlayColor = 0; break; // Magenta
+                case 4: CurrentSettings.OverlayColor = 1; break; // Blue
+                case 2: CurrentSettings.OverlayColor = 2; break; // Red
+                case 0: CurrentSettings.OverlayColor = 3; break; // Transparent
+                case 5: CurrentSettings.OverlayColor = 4; break; // Black
+                case 3: CurrentSettings.OverlayColor = 5; break; // Green
             }
-            switch ((string)cboWinsFilter.SelectedItem) {
-                case "Stats and Party Filter": CurrentSettings.WinsFilter = 0; break;
-                case "Season Stats": CurrentSettings.WinsFilter = 1; break;
-                case "Week Stats": CurrentSettings.WinsFilter = 2; break;
-                case "All Time Stats": CurrentSettings.WinsFilter = 3; break;
-                case "Day Stats": CurrentSettings.WinsFilter = 4; break;
-                case "Session Stats": CurrentSettings.WinsFilter = 5; break;
+            switch (cboWinsFilter.SelectedIndex) {
+                case 1: CurrentSettings.WinsFilter = 0; break; // Stats and Party Filter
+                case 2: CurrentSettings.WinsFilter = 1; break; // Season Stats
+                case 3: CurrentSettings.WinsFilter = 2; break; // Week Stats
+                case 0: CurrentSettings.WinsFilter = 3; break; // All Time Stats
+                case 4: CurrentSettings.WinsFilter = 4; break; // Day Stats
+                case 5: CurrentSettings.WinsFilter = 5; break; // Session Stats
             }
-            switch ((string)cboQualifyFilter.SelectedItem) {
-                case "All Time Stats": CurrentSettings.QualifyFilter = 0; break;
-                case "Stats and Party Filter": CurrentSettings.QualifyFilter = 1; break;
-                case "Season Stats": CurrentSettings.QualifyFilter = 2; break;
-                case "Week Stats": CurrentSettings.QualifyFilter = 3; break;
-                case "Day Stats": CurrentSettings.QualifyFilter = 4; break;
-                case "Session Stats": CurrentSettings.QualifyFilter = 5; break;
+            switch (cboQualifyFilter.SelectedIndex) {
+                case 0: CurrentSettings.QualifyFilter = 0; break; // All Time Stats
+                case 1: CurrentSettings.QualifyFilter = 1; break; // Stats and Party Filter
+                case 2: CurrentSettings.QualifyFilter = 2; break; // Season Stats
+                case 3: CurrentSettings.QualifyFilter = 3; break; // Week Stats
+                case 4: CurrentSettings.QualifyFilter = 4; break; // Day Stats
+                case 5: CurrentSettings.QualifyFilter = 5; break; // Session Stats
             }
-            switch ((string)cboFastestFilter.SelectedItem) {
-                case "All Time Stats": CurrentSettings.FastestFilter = 0; break;
-                case "Stats and Party Filter": CurrentSettings.FastestFilter = 1; break;
-                case "Season Stats": CurrentSettings.FastestFilter = 2; break;
-                case "Week Stats": CurrentSettings.FastestFilter = 3; break;
-                case "Day Stats": CurrentSettings.FastestFilter = 4; break;
-                case "Session Stats": CurrentSettings.FastestFilter = 5; break;
+            switch (cboFastestFilter.SelectedIndex) {
+                case 0: CurrentSettings.FastestFilter = 0; break; // All Time Stats
+                case 1: CurrentSettings.FastestFilter = 1; break; // Stats and Party Filter
+                case 2: CurrentSettings.FastestFilter = 2; break; // Season Stats
+                case 3: CurrentSettings.FastestFilter = 3; break; // Week Stats
+                case 4: CurrentSettings.FastestFilter = 4; break; // Day Stats
+                case 5: CurrentSettings.FastestFilter = 5; break; // Session Stats
+            }
+            switch (cboLanguage.SelectedIndex) {
+                case 0: CurrentSettings.Language = 0; break; // Use System Language
+                case 1: CurrentSettings.Language = 1; break; // English
+                case 2: CurrentSettings.Language = 2; break; // Korean
             }
 
             if (resizeOverlay) {
@@ -271,21 +281,23 @@ namespace FallGuysStats {
         private void btnGameExeLocationBrowse_Click(object sender, EventArgs e) {
             try {
                 using (OpenFileDialog openFile = new OpenFileDialog()) {
-                    FileInfo currentExeLocation = new FileInfo(txtGameExeLocation.Text);
-                    if (currentExeLocation.Directory.Exists) {
-                        openFile.InitialDirectory = currentExeLocation.Directory.FullName;
+                    if (!string.IsNullOrEmpty(txtGameExeLocation.Text)) {
+                        FileInfo currentExeLocation = new FileInfo(txtGameExeLocation.Text);
+                        if (currentExeLocation.Directory.Exists) {
+                          openFile.InitialDirectory = currentExeLocation.Directory.FullName;
+                        }
                     }
 
-                    openFile.Filter = "Exe files (*.exe)|*.exe";
+                    openFile.Filter = $"{Resources.Strings.settings_exe_files} (*.exe)|*.exe";
                     openFile.FileName = "FallGuys_client_game.exe";
-                    openFile.Title = "Locate Fall Guys";
+                    openFile.Title = Resources.Strings.settings_locate_fall_guys;
 
                     DialogResult result = openFile.ShowDialog(this);
                     if (result.Equals(DialogResult.OK)) {
                         if (openFile.FileName.IndexOf("FallGuys_client", StringComparison.OrdinalIgnoreCase) >= 0) {
                             txtGameExeLocation.Text = openFile.FileName;
                         } else {
-                            MessageBox.Show("Please select \"FallGuys_client_game.exe\" in the install folder.", "Wrong File Selected", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            MessageBox.Show(Resources.Strings.settings_wrong_file_selected_msg, Resources.Strings.settings_wrong_file_selected, MessageBoxButtons.OK, MessageBoxIcon.Error);
                         }
                     }
                 }

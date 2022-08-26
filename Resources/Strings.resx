@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="round_airtime" xml:space="preserve">
+    <value>Airtime</value>
+  </data>
+  <data name="round_basketfall" xml:space="preserve">
+    <value>Basketfall</value>
+  </data>
+  <data name="round_big_fans" xml:space="preserve">
+    <value>Big Fans</value>
+  </data>
+  <data name="round_big_shots" xml:space="preserve">
+    <value>Big Shots</value>
+  </data>
+  <data name="round_blast_ball" xml:space="preserve">
+    <value>Blast Ball</value>
+  </data>
+  <data name="round_block_party" xml:space="preserve">
+    <value>Block Party</value>
+  </data>
+  <data name="round_bounce_party" xml:space="preserve">
+    <value>Bounce Party</value>
+  </data>
+  <data name="round_bubble_trouble" xml:space="preserve">
+    <value>Bubble Trouble</value>
+  </data>
+  <data name="round_button_bashers" xml:space="preserve">
+    <value>Button Bashers</value>
+  </data>
+  <data name="round_dizzy_heights" xml:space="preserve">
+    <value>Dizzy Heights</value>
+  </data>
+  <data name="round_door_dash" xml:space="preserve">
+    <value>Door Dash</value>
+  </data>
+  <data name="round_egg_scramble" xml:space="preserve">
+    <value>Egg Scramble</value>
+  </data>
+  <data name="round_egg_siege" xml:space="preserve">
+    <value>Egg Siege</value>
+  </data>
+  <data name="round_fall_ball" xml:space="preserve">
+    <value>Fall Ball</value>
+  </data>
+  <data name="round_fall_mountain" xml:space="preserve">
+    <value>Fall Mountain</value>
+  </data>
+  <data name="overlay_fastest" xml:space="preserve">
+    <value>FASTEST</value>
+  </data>
+  <data name="overlay_final_streak" xml:space="preserve">
+    <value>FINAL STREAK</value>
+  </data>
+  <data name="round_freezy_peak" xml:space="preserve">
+    <value>Freezy Peak</value>
+  </data>
+  <data name="round_fruit_chute" xml:space="preserve">
+    <value>Fruit Chute</value>
+  </data>
+  <data name="round_full_tilt" xml:space="preserve">
+    <value>Full Tilt</value>
+  </data>
+  <data name="round_gate_crash" xml:space="preserve">
+    <value>Gate Crash</value>
+  </data>
+  <data name="overlay_gold" xml:space="preserve">
+    <value>GOLD</value>
+  </data>
+  <data name="round_hex_a_gone" xml:space="preserve">
+    <value>Hex-A-Gone</value>
+  </data>
+  <data name="round_hex_a_ring" xml:space="preserve">
+    <value>Hex-A-Ring</value>
+  </data>
+  <data name="overlay_high_score" xml:space="preserve">
+    <value>HIGH SCORE</value>
+  </data>
+  <data name="round_hit_parade" xml:space="preserve">
+    <value>Hit Parade</value>
+  </data>
+  <data name="round_hoarders" xml:space="preserve">
+    <value>Hoarders</value>
+  </data>
+  <data name="round_hoopsie_daisy" xml:space="preserve">
+    <value>Hoopsie Daisy</value>
+  </data>
+  <data name="round_hoopsie_legends" xml:space="preserve">
+    <value>Hoopsie Legends</value>
+  </data>
+  <data name="round_hoverboard_heroes" xml:space="preserve">
+    <value>Hoverboard Heroes</value>
+  </data>
+  <data name="round_jinxed" xml:space="preserve">
+    <value>Jinxed</value>
+  </data>
+  <data name="round_jump_club" xml:space="preserve">
+    <value>Jump Club</value>
+  </data>
+  <data name="round_jump_showdown" xml:space="preserve">
+    <value>Jump Showdown</value>
+  </data>
+  <data name="round_knight_fever" xml:space="preserve">
+    <value>Knight Fever</value>
+  </data>
+  <data name="round_leading_light" xml:space="preserve">
+    <value>Leading Light</value>
+  </data>
+  <data name="round_lily_leapers" xml:space="preserve">
+    <value>Lily Leapers</value>
+  </data>
+  <data name="overlay_longest" xml:space="preserve">
+    <value>LONGEST</value>
+  </data>
+  <data name="round_lost_temple" xml:space="preserve">
+    <value>Lost Temple</value>
+  </data>
+  <data name="round_party_promenade" xml:space="preserve">
+    <value>Party Promenade</value>
+  </data>
+  <data name="round_pegwin_party" xml:space="preserve">
+    <value>Pegwin Pool Party</value>
+  </data>
+  <data name="round_pegwin_pursuit" xml:space="preserve">
+    <value>Pegwin Pursuit</value>
+  </data>
+  <data name="round_perfect_match" xml:space="preserve">
+    <value>Perfect Match</value>
+  </data>
+  <data name="overlay_ping" xml:space="preserve">
+    <value>PING</value>
+  </data>
+  <data name="round_pipe_dream" xml:space="preserve">
+    <value>Pipe Dream</value>
+  </data>
+  <data name="overlay_players" xml:space="preserve">
+    <value>PLAYERS</value>
+  </data>
+  <data name="round_power_trip" xml:space="preserve">
+    <value>Power Trip</value>
+  </data>
+  <data name="overlay_qualify" xml:space="preserve">
+    <value>QUALIFY</value>
+  </data>
+  <data name="round_rock_n_roll" xml:space="preserve">
+    <value>Rock'N'Roll</value>
+  </data>
+  <data name="round_roll_off" xml:space="preserve">
+    <value>Roll Off</value>
+  </data>
+  <data name="round_roll_on" xml:space="preserve">
+    <value>Roll On</value>
+  </data>
+  <data name="round_roll_out" xml:space="preserve">
+    <value>Roll Out</value>
+  </data>
+  <data name="overlay_round" xml:space="preserve">
+    <value>ROUND</value>
+  </data>
+  <data name="round_royal_fumble" xml:space="preserve">
+    <value>Royal Fumble</value>
+  </data>
+  <data name="round_see_saw" xml:space="preserve">
+    <value>See Saw</value>
+  </data>
+  <data name="round_short_circuit" xml:space="preserve">
+    <value>Short Circuit</value>
+  </data>
+  <data name="round_ski_fall" xml:space="preserve">
+    <value>Ski Fall</value>
+  </data>
+  <data name="round_skyline_stumble" xml:space="preserve">
+    <value>Skyline Stumble</value>
+  </data>
+  <data name="round_slimescraper" xml:space="preserve">
+    <value>Slimescraper</value>
+  </data>
+  <data name="round_slime_climb" xml:space="preserve">
+    <value>Slime Climb</value>
+  </data>
+  <data name="round_snowball_survival" xml:space="preserve">
+    <value>Snowball Survival</value>
+  </data>
+  <data name="round_snowy_scrap" xml:space="preserve">
+    <value>Snowy Scrap</value>
+  </data>
+  <data name="round_speed_circuit" xml:space="preserve">
+    <value>Speed Circuit</value>
+  </data>
+  <data name="round_stompin_ground" xml:space="preserve">
+    <value>Stompin' Ground</value>
+  </data>
+  <data name="round_sum_fruit" xml:space="preserve">
+    <value>Sum Fruit</value>
+  </data>
+  <data name="round_sweet_thieves" xml:space="preserve">
+    <value>Sweet Thieves</value>
+  </data>
+  <data name="round_team_tail_tag" xml:space="preserve">
+    <value>Team Tail Tag</value>
+  </data>
+  <data name="round_the_swiveller" xml:space="preserve">
+    <value>The Swiveller</value>
+  </data>
+  <data name="round_thin_ice" xml:space="preserve">
+    <value>Thin Ice</value>
+  </data>
+  <data name="round_tip_toe" xml:space="preserve">
+    <value>Tip Toe</value>
+  </data>
+  <data name="round_track_attack" xml:space="preserve">
+    <value>Track Attack</value>
+  </data>
+  <data name="round_treetop_tumble" xml:space="preserve">
+    <value>Treetop Tumble</value>
+  </data>
+  <data name="round_tundra_run" xml:space="preserve">
+    <value>Tundra Run</value>
+  </data>
+  <data name="round_volleyfall" xml:space="preserve">
+    <value>Volleyfall</value>
+  </data>
+  <data name="round_wall_guys" xml:space="preserve">
+    <value>Wall Guys</value>
+  </data>
+  <data name="round_whirlygig" xml:space="preserve">
+    <value>Whirlygig</value>
+  </data>
+  <data name="overlay_win_streak" xml:space="preserve">
+    <value>WIN STREAK</value>
+  </data>
+  <data name="round_tail_tag" xml:space="preserve">
+    <value>Tail Tag</value>
+  </data>
+  <data name="details_bronze" xml:space="preserve">
+    <value>Bronze</value>
+  </data>
+  <data name="details_duration" xml:space="preserve">
+    <value>Duration</value>
+  </data>
+  <data name="details_eliminated" xml:space="preserve">
+    <value>Eliminated</value>
+  </data>
+  <data name="details_final" xml:space="preserve">
+    <value>Final</value>
+  </data>
+  <data name="details_final_stats" xml:space="preserve">
+    <value>Final Stats</value>
+  </data>
+  <data name="details_finish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="details_gold" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="details_kudos" xml:space="preserve">
+    <value>Kudos</value>
+  </data>
+  <data name="details_level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="details_level_stats" xml:space="preserve">
+    <value>Level Stats</value>
+  </data>
+  <data name="details_pink" xml:space="preserve">
+    <value>Pink</value>
+  </data>
+  <data name="details_players" xml:space="preserve">
+    <value>Players</value>
+  </data>
+  <data name="details_position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="details_remove_shows" xml:space="preserve">
+    <value>Remove Shows</value>
+  </data>
+  <data name="details_remove_shows_msg" xml:space="preserve">
+    <value>Are you sure you want to remove the selected {0} Shows?</value>
+  </data>
+  <data name="details_round" xml:space="preserve">
+    <value>Round</value>
+  </data>
+  <data name="details_rounds" xml:space="preserve">
+    <value>Rounds</value>
+  </data>
+  <data name="details_round_stats" xml:space="preserve">
+    <value>Round Stats</value>
+  </data>
+  <data name="details_score" xml:space="preserve">
+    <value>Score</value>
+  </data>
+  <data name="details_show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+  <data name="details_show_stats" xml:space="preserve">
+    <value>Show Stats</value>
+  </data>
+  <data name="details_silver" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="details_start" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="overlay_all_time" xml:space="preserve">
+    <value>ALL TIME</value>
+  </data>
+  <data name="overlay_day" xml:space="preserve">
+    <value>DAY</value>
+  </data>
+  <data name="overlay_season" xml:space="preserve">
+    <value>SEASON</value>
+  </data>
+  <data name="overlay_session" xml:space="preserve">
+    <value>SESSION</value>
+  </data>
+  <data name="overlay_time" xml:space="preserve">
+    <value>TIME</value>
+  </data>
+  <data name="overlay_week" xml:space="preserve">
+    <value>WEEK</value>
+  </data>
+  <data name="settings_all_time_stats" xml:space="preserve">
+    <value>All Time Stats</value>
+  </data>
+  <data name="settings_black" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="settings_blue" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="settings_day_stats" xml:space="preserve">
+    <value>Day Stats</value>
+  </data>
+  <data name="settings_exe_files" xml:space="preserve">
+    <value>Exe files</value>
+  </data>
+  <data name="settings_green" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="settings_locate_fall_guys" xml:space="preserve">
+    <value>Locate Fall Guys</value>
+  </data>
+  <data name="settings_magenta" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="settings_red" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="settings_season_stats" xml:space="preserve">
+    <value>Season Stats</value>
+  </data>
+  <data name="settings_session_stats" xml:space="preserve">
+    <value>Session Stats</value>
+  </data>
+  <data name="settings_stats_and_party_filter" xml:space="preserve">
+    <value>Stats and Party Filter</value>
+  </data>
+  <data name="settings_transparent" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="settings_week_stats" xml:space="preserve">
+    <value>Week Stats</value>
+  </data>
+  <data name="settings_wrong_file_selected" xml:space="preserve">
+    <value>Wrong File Selected</value>
+  </data>
+  <data name="settings_wrong_file_selected_msg" xml:space="preserve">
+    <value>Please select "FallGuys_client_game.exe" in the install folder.</value>
+  </data>
+  <data name="stats_average" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="stats_bronze" xml:space="preserve">
+    <value>Bronze</value>
+  </data>
+  <data name="stats_fastest" xml:space="preserve">
+    <value>Fastest</value>
+  </data>
+  <data name="stats_finals" xml:space="preserve">
+    <value>Finals</value>
+  </data>
+  <data name="stats_gold" xml:space="preserve">
+    <value>Gold</value>
+  </data>
+  <data name="stats_kudos" xml:space="preserve">
+    <value>Kudos</value>
+  </data>
+  <data name="stats_level_name" xml:space="preserve">
+    <value>Level Name</value>
+  </data>
+  <data name="stats_longest" xml:space="preserve">
+    <value>Longest</value>
+  </data>
+  <data name="stats_played" xml:space="preserve">
+    <value>Played</value>
+  </data>
+  <data name="stats_qualified" xml:space="preserve">
+    <value>Qualified</value>
+  </data>
+  <data name="stats_rounds" xml:space="preserve">
+    <value>Rounds</value>
+  </data>
+  <data name="stats_shows" xml:space="preserve">
+    <value>Shows</value>
+  </data>
+  <data name="stats_silver" xml:space="preserve">
+    <value>Silver</value>
+  </data>
+  <data name="stats_time_played" xml:space="preserve">
+    <value>Time Played</value>
+  </data>
+  <data name="stats_wins" xml:space="preserve">
+    <value>Wins</value>
+  </data>
+  <data name="ui_error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ui_error_updating" xml:space="preserve">
+    <value>Error Updating</value>
+  </data>
+</root>

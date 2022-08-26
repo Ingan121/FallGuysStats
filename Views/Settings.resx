@@ -117,7 +117,1897 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtGameExeLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 18</value>
+  </data>
+  <data name="&gt;&gt;grpCycleQualifyGold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLogPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;chkFlipped.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCycleWinFinalStreak.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="cboQualifyFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;chkHideTimeInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkOnlyShowFastest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 9</value>
+  </data>
+  <data name="chkOnlyShowWinStreak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;grpOverlay.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblLogPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lblPreviousWins.Name" xml:space="preserve">
+    <value>lblPreviousWins</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtLogPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboOverlayColor.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="btnGameExeLocationBrowse.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;txtCycleTimeSeconds.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="cboLanguage.Items2" xml:space="preserve">
+    <value>Korean | ko-KR</value>
+  </data>
+  <data name="&gt;&gt;chkHidePercentages.Name" xml:space="preserve">
+    <value>chkHidePercentages</value>
+  </data>
+  <data name="grpCycleFastestLongest.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="grpCycleWinFinalStreak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="chkCyclePlayersPing.Text" xml:space="preserve">
+    <value>Cycle Players / Ping</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowFinalStreak.Name" xml:space="preserve">
+    <value>chkOnlyShowFinalStreak</value>
+  </data>
+  <data name="chkHideWinsInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPreviousWins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 21</value>
+  </data>
+  <data name="chkHidePercentages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowFastest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblOverlayFontExample.Text" xml:space="preserve">
+    <value>Round 3: Freezy Peak</value>
+  </data>
+  <data name="txtGameExeLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="cboWinsFilter.Items2" xml:space="preserve">
+    <value>Season Stats</value>
+  </data>
+  <data name="lblOverlayFont.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowQualify.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboLanguage.AutoCompleteCustomSource2" xml:space="preserve">
+    <value>Korean | ko-KR</value>
+  </data>
+  <data name="&gt;&gt;lblGameExeLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkCycleFastestLongest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;chkHidePercentages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkOnlyShowFinalStreak.Text" xml:space="preserve">
+    <value>Final Streak Only</value>
+  </data>
+  <data name="txtCycleTimeSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>98, 137</value>
+  </data>
+  <data name="chkOnlyShowFastest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;lblPreviousWinsNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPreviousWins.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkAutoLaunchGameOnStart.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="grpOverlayFontExample.Text" xml:space="preserve">
+    <value>Example</value>
+  </data>
+  <data name="chkCycleWinFinalStreak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 9</value>
+  </data>
+  <data name="grpOverlay.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="chkOnlyShowQualify.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="lblGameExeLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 12</value>
+  </data>
+  <data name="lblCycleTimeSecondsTag.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtCycleTimeSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkFlipped.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 12</value>
+  </data>
+  <data name="&gt;&gt;lblQualifyFilter.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkFlipped.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="chkAutoUpdate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowWinStreak.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPreviousWins.Text" xml:space="preserve">
+    <value>Previous Wins</value>
+  </data>
+  <data name="grpOverlayFontExample.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;chkCycleQualifyGold.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkIgnoreLevelTypeWhenSorting.Name" xml:space="preserve">
+    <value>chkIgnoreLevelTypeWhenSorting</value>
+  </data>
+  <data name="chkIgnoreLevelTypeWhenSorting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 16</value>
+  </data>
+  <data name="chkHideRoundInfo.Text" xml:space="preserve">
+    <value>Hide Round info</value>
+  </data>
+  <data name="&gt;&gt;lblLogPath.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="grpStats.Text" xml:space="preserve">
+    <value>Stats</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowWinStreak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpGameOptions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpGameOptions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowWinStreak.Parent" xml:space="preserve">
+    <value>grpCycleWinFinalStreak</value>
+  </data>
+  <data name="btnGameExeLocationBrowse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>687, 17</value>
+  </data>
+  <data name="lblCycleTimeSeconds.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>780, 579</value>
+  </data>
+  <data name="cboQualifyFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnResetOverlayFont.Text" xml:space="preserve">
+    <value>Reset Font</value>
+  </data>
+  <data name="txtGameExeLocation.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblQualifyFilter.Name" xml:space="preserve">
+    <value>lblQualifyFilter</value>
+  </data>
+  <data name="cboLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="txtLogPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="lblFastestFilter.Text" xml:space="preserve">
+    <value>Fastest / Longest Filter</value>
+  </data>
+  <data name="&gt;&gt;txtPreviousWins.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAutoUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>296, 19</value>
+  </data>
+  <data name="grpCycleWinFinalStreak.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;chkOverlayOnTop.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="cboFastestFilter.Items1" xml:space="preserve">
+    <value>Stats and Party Filter</value>
+  </data>
+  <data name="cboFastestFilter.Items2" xml:space="preserve">
+    <value>Season Stats</value>
+  </data>
+  <data name="cboFastestFilter.Items3" xml:space="preserve">
+    <value>Week Stats</value>
+  </data>
+  <data name="cboFastestFilter.Items4" xml:space="preserve">
+    <value>Day Stats</value>
+  </data>
+  <data name="cboFastestFilter.Items5" xml:space="preserve">
+    <value>Session Stats</value>
+  </data>
+  <data name="&gt;&gt;chkHideRoundInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOverlayFont.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="chkIgnoreLevelTypeWhenSorting.Text" xml:space="preserve">
+    <value>Ignore Level Type when sorting</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowFastest.Name" xml:space="preserve">
+    <value>chkOnlyShowFastest</value>
+  </data>
+  <data name="chkOnlyShowWinStreak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 16</value>
+  </data>
+  <data name="&gt;&gt;btnResetOverlayFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAutoLaunchGameOnStart.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblFastestFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFastestFilter.Name" xml:space="preserve">
+    <value>lblFastestFilter</value>
+  </data>
+  <data name="&gt;&gt;txtGameExeLocation.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpGameOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 481</value>
+  </data>
+  <data name="chkShowTabs.Text" xml:space="preserve">
+    <value>Show Tab for current filter</value>
+  </data>
+  <data name="&gt;&gt;lblCycleTimeSecondsTag.Name" xml:space="preserve">
+    <value>lblCycleTimeSecondsTag</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowPlayers.Name" xml:space="preserve">
+    <value>chkOnlyShowPlayers</value>
+  </data>
+  <data name="chkCycleQualifyGold.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkAutoUpdate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;grpStats.Name" xml:space="preserve">
+    <value>grpStats</value>
+  </data>
+  <data name="&gt;&gt;chkIgnoreLevelTypeWhenSorting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkShowTabs.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="grpOverlayFontExample.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="lblOverlayFontExample.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkCyclePlayersPing.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="chkOverlayOnTop.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkHideTimeInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="chkCycleWinFinalStreak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="lblLogPath.Text" xml:space="preserve">
+    <value>Log Path</value>
+  </data>
+  <data name="&gt;&gt;lblWinsFilter.Name" xml:space="preserve">
+    <value>lblWinsFilter</value>
+  </data>
+  <data name="&gt;&gt;grpOverlayFontExample.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="chkOnlyShowFastest.Text" xml:space="preserve">
+    <value>Fastest Only</value>
+  </data>
+  <data name="chkOnlyShowPing.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;lblLogPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkHideTimeInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 16</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowLongest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCycleQualifyGold.Name" xml:space="preserve">
+    <value>grpCycleQualifyGold</value>
+  </data>
+  <data name="chkOnlyShowFastest.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkAutoUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpCycleWinFinalStreak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboOverlayColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;lblOverlayColor.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="&gt;&gt;lblPreviousWins.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblCycleTimeSecondsTag.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;chkHideWinsInfo.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblLogPathNote.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;chkAutoUpdate.Name" xml:space="preserve">
+    <value>chkAutoUpdate</value>
+  </data>
+  <data name="&gt;&gt;chkCycleQualifyGold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkChangeHoopsieLegends.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkShowTabs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOverlayColor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblOverlayFont.Name" xml:space="preserve">
+    <value>lblOverlayFont</value>
+  </data>
+  <data name="cboFastestFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chkAutoLaunchGameOnStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 15</value>
+  </data>
+  <data name="chkOnlyShowWinStreak.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowLongest.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="grpCycleQualifyGold.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblGameExeLocation.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPreviousWinsNote.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkCycleQualifyGold.Parent" xml:space="preserve">
+    <value>grpCycleQualifyGold</value>
+  </data>
+  <data name="&gt;&gt;lblLogPathNote.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grpCycleFastestLongest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpStats.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpSortingOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnResetOverlayFont.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="lblQualifyFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 12</value>
+  </data>
+  <data name="chkOverlayOnTop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 16</value>
+  </data>
+  <data name="&gt;&gt;btnGameExeLocationBrowse.Name" xml:space="preserve">
+    <value>btnGameExeLocationBrowse</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowGold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkShowTabs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 16</value>
+  </data>
+  <data name="chkCyclePlayersPing.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cboOverlayColor.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblQualifyFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 43</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;grpGameOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkHideWinsInfo.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="chkHideWinsInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkAutoUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 16</value>
+  </data>
+  <data name="chkOnlyShowPlayers.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 9</value>
+  </data>
+  <data name="chkOverlayOnTop.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="chkOnlyShowWinStreak.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkCycleWinFinalStreak.Parent" xml:space="preserve">
+    <value>grpCycleWinFinalStreak</value>
+  </data>
+  <data name="chkOnlyShowPing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 9</value>
+  </data>
+  <data name="btnResetOverlayFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 298</value>
+  </data>
+  <data name="chkCycleFastestLongest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 9</value>
+  </data>
+  <data name="chkAutoUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="grpCycleQualifyGold.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblLogPathNote.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkAutoLaunchGameOnStart.Text" xml:space="preserve">
+    <value>Auto-launch Fall Guys on tracker start</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowQualify.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpCycleFastestLongest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 181</value>
+  </data>
+  <data name="&gt;&gt;lblQualifyFilter.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="&gt;&gt;lblWinsFilter.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;chkHideTimeInfo.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnResetOverlayFont.Name" xml:space="preserve">
+    <value>btnResetOverlayFont</value>
+  </data>
+  <data name="lblOverlayColor.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="cboFastestFilter.Items" xml:space="preserve">
+    <value>All Time Stats</value>
+  </data>
+  <data name="lblOverlayColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 12</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowQualify.Name" xml:space="preserve">
+    <value>chkOnlyShowQualify</value>
+  </data>
+  <data name="&gt;&gt;chkShowTabs.Name" xml:space="preserve">
+    <value>chkShowTabs</value>
+  </data>
+  <data name="&gt;&gt;grpOverlayFontExample.Name" xml:space="preserve">
+    <value>grpOverlayFontExample</value>
+  </data>
+  <data name="chkCycleFastestLongest.Text" xml:space="preserve">
+    <value>Cycle Fastest / Longest</value>
+  </data>
+  <data name="grpGameOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>751, 64</value>
+  </data>
+  <data name="chkHideRoundInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 16</value>
+  </data>
+  <data name="chkOnlyShowGold.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;grpStats.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowWinStreak.Name" xml:space="preserve">
+    <value>chkOnlyShowWinStreak</value>
+  </data>
+  <data name="grpGameOptions.Text" xml:space="preserve">
+    <value>Game Options</value>
+  </data>
+  <data name="cboQualifyFilter.Items4" xml:space="preserve">
+    <value>Day Stats</value>
+  </data>
+  <data name="&gt;&gt;btnSelectFont.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="&gt;&gt;lblCycleTimeSeconds.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="lblLogPathNote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 32</value>
+  </data>
+  <data name="chkOnlyShowGold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 16</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblCycleTimeSeconds.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;grpSortingOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnGameExeLocationBrowse.Parent" xml:space="preserve">
+    <value>grpGameOptions</value>
+  </data>
+  <data name="&gt;&gt;txtPreviousWins.Parent" xml:space="preserve">
+    <value>grpStats</value>
+  </data>
+  <data name="txtLogPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 11</value>
+  </data>
+  <data name="&gt;&gt;chkCycleFastestLongest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtGameExeLocation.Name" xml:space="preserve">
+    <value>txtGameExeLocation</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowQualify.Parent" xml:space="preserve">
+    <value>grpCycleQualifyGold</value>
+  </data>
+  <data name="grpSortingOptions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="grpOverlay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 106</value>
+  </data>
+  <data name="lblOverlayFont.Text" xml:space="preserve">
+    <value>Custom Overlay Font</value>
+  </data>
+  <data name="cboFastestFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;chkAutoLaunchGameOnStart.Name" xml:space="preserve">
+    <value>chkAutoLaunchGameOnStart</value>
+  </data>
+  <data name="cboFastestFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="lblOverlayFontExample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 14</value>
+  </data>
+  <data name="chkOnlyShowGold.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkOnlyShowFinalStreak.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowPlayers.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboFastestFilter.Name" xml:space="preserve">
+    <value>cboFastestFilter</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowFastest.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkHidePercentages.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkOnlyShowPlayers.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPreviousWins.MaxLength" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkIgnoreLevelTypeWhenSorting.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cboWinsFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="lblCycleTimeSecondsTag.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkHideTimeInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPreviousWins.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblGameExeLocation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowGold.Parent" xml:space="preserve">
+    <value>grpCycleQualifyGold</value>
+  </data>
+  <data name="&gt;&gt;cboQualifyFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkChangeHoopsieLegends.Text" xml:space="preserve">
+    <value>Rename Hoopsie Legends to Hoopsie Heroes</value>
+  </data>
+  <data name="grpStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 54</value>
+  </data>
+  <data name="&gt;&gt;chkAutoLaunchGameOnStart.Parent" xml:space="preserve">
+    <value>grpGameOptions</value>
+  </data>
+  <data name="&gt;&gt;chkChangeHoopsieLegends.Name" xml:space="preserve">
+    <value>chkChangeHoopsieLegends</value>
+  </data>
+  <data name="chkAutoUpdate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;grpGameOptions.Name" xml:space="preserve">
+    <value>grpGameOptions</value>
+  </data>
+  <data name="grpCycleWinFinalStreak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 204</value>
+  </data>
+  <data name="chkCycleQualifyGold.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblOverlayFontExample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>594, 31</value>
+  </data>
+  <data name="chkHideWinsInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 19</value>
+  </data>
+  <data name="&gt;&gt;chkIgnoreLevelTypeWhenSorting.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblWinsFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>411, 20</value>
+  </data>
+  <data name="txtCycleTimeSeconds.MaxLength" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="grpSortingOptions.Text" xml:space="preserve">
+    <value>Sorting Options</value>
+  </data>
+  <data name="chkFlipped.Text" xml:space="preserve">
+    <value>Flip display horizontally</value>
+  </data>
+  <data name="cboQualifyFilter.Items" xml:space="preserve">
+    <value>All Time Stats</value>
+  </data>
+  <data name="&gt;&gt;cboWinsFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkOverlayOnTop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;grpCycleQualifyGold.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="txtPreviousWins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 18</value>
+  </data>
+  <data name="&gt;&gt;cboLanguage.Name" xml:space="preserve">
+    <value>cboLanguage</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnGameExeLocationBrowse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="chkOnlyShowPing.Text" xml:space="preserve">
+    <value>Ping Only</value>
+  </data>
+  <data name="txtCycleTimeSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 21</value>
+  </data>
+  <data name="chkOnlyShowQualify.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 9</value>
+  </data>
+  <data name="grpStats.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="chkOverlayOnTop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 188</value>
+  </data>
+  <data name="lblFastestFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="lblCycleTimeSeconds.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 12</value>
+  </data>
+  <data name="lblFastestFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txtCycleTimeSeconds.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="cboOverlayColor.Items3" xml:space="preserve">
+    <value>Green</value>
+  </data>
+  <data name="&gt;&gt;grpCycleWinFinalStreak.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>678, 550</value>
+  </data>
+  <data name="lblQualifyFilter.Text" xml:space="preserve">
+    <value>Qualify / Gold Filter</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowPing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpStats.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;txtPreviousWins.Name" xml:space="preserve">
+    <value>txtPreviousWins</value>
+  </data>
+  <data name="lblOverlayFont.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="grpCycleWinFinalStreak.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;btnGameExeLocationBrowse.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblQualifyFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkHidePercentages.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="cboOverlayColor.Items" xml:space="preserve">
+    <value>Transparent</value>
+  </data>
+  <data name="&gt;&gt;grpOverlayFontExample.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;chkCyclePlayersPing.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;txtGameExeLocation.Parent" xml:space="preserve">
+    <value>grpGameOptions</value>
+  </data>
+  <data name="grpCycleFastestLongest.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="cboWinsFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblPreviousWins.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 12</value>
+  </data>
+  <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;chkCycleFastestLongest.Parent" xml:space="preserve">
+    <value>grpCycleFastestLongest</value>
+  </data>
+  <data name="lblCycleTimeSeconds.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 139</value>
+  </data>
+  <data name="&gt;&gt;chkHideRoundInfo.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="chkShowTabs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="txtLogPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>691, 21</value>
+  </data>
+  <data name="lblOverlayFontExample.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="lblQualifyFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;txtCycleTimeSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCycleTimeSeconds.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblWinsFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="grpCycleWinFinalStreak.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblOverlayFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 262</value>
+  </data>
+  <data name="chkAutoLaunchGameOnStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 40</value>
+  </data>
+  <data name="grpCycleQualifyGold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 158</value>
+  </data>
+  <data name="btnSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;cboLanguage.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;btnGameExeLocationBrowse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpOverlayFontExample.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="chkFlipped.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 16</value>
+  </data>
+  <data name="cboLanguage.Items1" xml:space="preserve">
+    <value>English | en</value>
+  </data>
+  <data name="chkHidePercentages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 83</value>
+  </data>
+  <data name="lblPreviousWins.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkCyclePlayersPing.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="grpCycleQualifyGold.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowFastest.Parent" xml:space="preserve">
+    <value>grpCycleFastestLongest</value>
+  </data>
+  <data name="lblGameExeLocation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 19</value>
+  </data>
+  <data name="chkOnlyShowWinStreak.Text" xml:space="preserve">
+    <value>Win Streak Only</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblWinsFilter.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="cboWinsFilter.Items5" xml:space="preserve">
+    <value>Session Stats</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowPing.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkFlipped.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cboLanguage.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="&gt;&gt;chkChangeHoopsieLegends.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkHideTimeInfo.Text" xml:space="preserve">
+    <value>Hide Time info</value>
+  </data>
+  <data name="&gt;&gt;grpSortingOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowPing.Name" xml:space="preserve">
+    <value>chkOnlyShowPing</value>
+  </data>
+  <data name="txtGameExeLocation.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="&gt;&gt;cboFastestFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCycleTimeSeconds.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkHideWinsInfo.Text" xml:space="preserve">
+    <value>Hide Wins info</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowPlayers.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkIgnoreLevelTypeWhenSorting.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cboOverlayColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCycleWinFinalStreak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPreviousWinsNote.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 20</value>
+  </data>
+  <data name="txtGameExeLocation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>521, 21</value>
+  </data>
+  <data name="cboWinsFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 18</value>
+  </data>
+  <data name="lblPreviousWins.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 20</value>
+  </data>
+  <data name="chkCycleQualifyGold.Text" xml:space="preserve">
+    <value>Cycle Qualify / Gold</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowGold.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="chkCycleQualifyGold.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkOnlyShowFinalStreak.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cboFastestFilter.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;cboFastestFilter.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="grpOverlayFontExample.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 54</value>
+  </data>
+  <data name="&gt;&gt;lblFastestFilter.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblLogPathNote.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnGameExeLocationBrowse.Text" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="cboOverlayColor.Items4" xml:space="preserve">
+    <value>Blue</value>
+  </data>
+  <data name="&gt;&gt;lblFastestFilter.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="&gt;&gt;grpOverlay.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkAutoUpdate.Parent" xml:space="preserve">
+    <value>grpStats</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowFinalStreak.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkChangeHoopsieLegends.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblLogPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="chkShowTabs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 104</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowPlayers.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="lblLogPathNote.Text" xml:space="preserve">
+    <value>* You should not need to set this. Only use when the program is not reading the correct location.</value>
+  </data>
+  <data name="&gt;&gt;chkHideRoundInfo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="chkChangeHoopsieLegends.Size" type="System.Drawing.Size, System.Drawing">
+    <value>282, 16</value>
+  </data>
+  <data name="&gt;&gt;chkCycleFastestLongest.Name" xml:space="preserve">
+    <value>chkCycleFastestLongest</value>
+  </data>
+  <data name="lblGameExeLocation.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cboLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboLanguage.AutoCompleteCustomSource" xml:space="preserve">
+    <value>시스템 언어 사용</value>
+  </data>
+  <data name="chkOnlyShowQualify.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblPreviousWins.Parent" xml:space="preserve">
+    <value>grpStats</value>
+  </data>
+  <data name="&gt;&gt;chkCycleFastestLongest.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkOnlyShowLongest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 9</value>
+  </data>
+  <data name="cboOverlayColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="&gt;&gt;lblGameExeLocation.Parent" xml:space="preserve">
+    <value>grpGameOptions</value>
+  </data>
+  <data name="&gt;&gt;lblOverlayColor.Name" xml:space="preserve">
+    <value>lblOverlayColor</value>
+  </data>
+  <data name="chkOnlyShowWinStreak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 9</value>
+  </data>
+  <data name="chkHideRoundInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblPreviousWins.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="cboOverlayColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 138</value>
+  </data>
+  <data name="btnResetOverlayFont.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="grpCycleFastestLongest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="chkChangeHoopsieLegends.Location" type="System.Drawing.Point, System.Drawing">
+    <value>455, 19</value>
+  </data>
+  <data name="&gt;&gt;chkHideWinsInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="lblLogPathNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>554, 12</value>
+  </data>
+  <data name="grpGameOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblWinsFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboWinsFilter.Items1" xml:space="preserve">
+    <value>Stats and Party Filter</value>
+  </data>
+  <data name="chkOnlyShowPing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 16</value>
+  </data>
+  <data name="lblOverlayFontExample.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="grpOverlay.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="cboLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="chkOnlyShowPing.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblCycleTimeSeconds.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="chkHideTimeInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 62</value>
+  </data>
+  <data name="chkChangeHoopsieLegends.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="chkHidePercentages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 16</value>
+  </data>
+  <data name="cboWinsFilter.Items4" xml:space="preserve">
+    <value>Day Stats</value>
+  </data>
+  <data name="&gt;&gt;lblCycleTimeSecondsTag.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="&gt;&gt;grpCycleFastestLongest.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkHideWinsInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 16</value>
+  </data>
+  <data name="lblLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lblLogPath.Name" xml:space="preserve">
+    <value>lblLogPath</value>
+  </data>
+  <data name="chkCycleWinFinalStreak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 16</value>
+  </data>
+  <data name="cboWinsFilter.Items" xml:space="preserve">
+    <value>All Time Stats</value>
+  </data>
+  <data name="lblFastestFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 12</value>
+  </data>
+  <data name="btnSelectFont.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="chkChangeHoopsieLegends.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblCycleTimeSecondsTag.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chkCyclePlayersPing.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 16</value>
+  </data>
+  <data name="&gt;&gt;chkCyclePlayersPing.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkOnlyShowQualify.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkHideRoundInfo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkOverlayOnTop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCycleTimeSeconds.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;lblOverlayFontExample.Name" xml:space="preserve">
+    <value>lblOverlayFontExample</value>
+  </data>
+  <data name="&gt;&gt;cboWinsFilter.Name" xml:space="preserve">
+    <value>cboWinsFilter</value>
+  </data>
+  <data name="&gt;&gt;cboOverlayColor.Name" xml:space="preserve">
+    <value>cboOverlayColor</value>
+  </data>
+  <data name="chkCyclePlayersPing.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 9</value>
+  </data>
+  <data name="&gt;&gt;chkCyclePlayersPing.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboLanguage.AutoCompleteCustomSource1" xml:space="preserve">
+    <value>English | en</value>
+  </data>
+  <data name="&gt;&gt;lblOverlayColor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkIgnoreLevelTypeWhenSorting.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="chkCycleFastestLongest.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnGameExeLocationBrowse.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblOverlayColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCycleWinFinalStreak.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkCycleWinFinalStreak.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grpCycleQualifyGold.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtPreviousWins.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="chkHideRoundInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="lblWinsFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 12</value>
+  </data>
+  <data name="&gt;&gt;txtLogPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboOverlayColor.Items5" xml:space="preserve">
+    <value>Black</value>
+  </data>
+  <data name="chkOnlyShowQualify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 16</value>
+  </data>
+  <data name="lblCycleTimeSeconds.Text" xml:space="preserve">
+    <value>Cycle Time</value>
+  </data>
+  <data name="&gt;&gt;txtLogPath.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtPreviousWins.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpStats.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;grpStats.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="chkOnlyShowPing.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkCycleWinFinalStreak.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCycleFastestLongest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 16</value>
+  </data>
+  <data name="lblFastestFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkOnlyShowGold.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;lblLogPathNote.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="cboQualifyFilter.Items1" xml:space="preserve">
+    <value>Stats and Party Filter</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>583, 550</value>
+  </data>
+  <data name="cboQualifyFilter.Items3" xml:space="preserve">
+    <value>Week Stats</value>
+  </data>
+  <data name="cboQualifyFilter.Items2" xml:space="preserve">
+    <value>Season Stats</value>
+  </data>
+  <data name="cboQualifyFilter.Items5" xml:space="preserve">
+    <value>Session Stats</value>
+  </data>
+  <data name="&gt;&gt;chkShowTabs.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblOverlayFontExample.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtGameExeLocation.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCycleTimeSecondsTag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 139</value>
+  </data>
+  <data name="&gt;&gt;chkHideTimeInfo.Name" xml:space="preserve">
+    <value>chkHideTimeInfo</value>
+  </data>
+  <data name="&gt;&gt;lblPreviousWinsNote.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpGameOptions.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="chkOnlyShowPlayers.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 16</value>
+  </data>
+  <data name="&gt;&gt;chkCycleWinFinalStreak.Name" xml:space="preserve">
+    <value>chkCycleWinFinalStreak</value>
+  </data>
+  <data name="grpOverlay.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;btnResetOverlayFont.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="lblOverlayFont.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;cboOverlayColor.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkOnlyShowLongest.Text" xml:space="preserve">
+    <value>Longest Only</value>
+  </data>
+  <data name="lblLanguage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkOnlyShowQualify.Text" xml:space="preserve">
+    <value>Qualify Only</value>
+  </data>
+  <data name="&gt;&gt;lblGameExeLocation.Name" xml:space="preserve">
+    <value>lblGameExeLocation</value>
+  </data>
+  <data name="chkOnlyShowFinalStreak.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 9</value>
+  </data>
+  <data name="&gt;&gt;chkShowTabs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkOnlyShowLongest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;grpSortingOptions.Name" xml:space="preserve">
+    <value>grpSortingOptions</value>
+  </data>
+  <data name="lblCycleTimeSeconds.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lblOverlayFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkOnlyShowLongest.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblOverlayFontExample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboLanguage.Items" xml:space="preserve">
+    <value>Use System Language</value>
+  </data>
+  <data name="lblGameExeLocation.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chkChangeHoopsieLegends.Parent" xml:space="preserve">
+    <value>grpStats</value>
+  </data>
+  <data name="lblWinsFilter.Text" xml:space="preserve">
+    <value>Wins / Final Filter</value>
+  </data>
+  <data name="chkHidePercentages.Text" xml:space="preserve">
+    <value>Hide Percentages</value>
+  </data>
+  <data name="grpOverlay.Text" xml:space="preserve">
+    <value>Overlay</value>
+  </data>
+  <data name="chkHideWinsInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;grpSortingOptions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grpCycleWinFinalStreak.Name" xml:space="preserve">
+    <value>grpCycleWinFinalStreak</value>
+  </data>
+  <data name="lblLogPath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chkAutoUpdate.Text" xml:space="preserve">
+    <value>Auto Update Program</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowFinalStreak.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpOverlay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>752, 325</value>
+  </data>
+  <data name="&gt;&gt;lblCycleTimeSeconds.Name" xml:space="preserve">
+    <value>lblCycleTimeSeconds</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowFinalStreak.Parent" xml:space="preserve">
+    <value>grpCycleWinFinalStreak</value>
+  </data>
+  <data name="lblPreviousWins.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkCycleQualifyGold.Name" xml:space="preserve">
+    <value>chkCycleQualifyGold</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblLogPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 12</value>
+  </data>
+  <data name="lblPreviousWinsNote.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 12</value>
+  </data>
+  <data name="chkCycleFastestLongest.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkHideTimeInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grpOverlayFontExample.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblQualifyFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="grpCycleFastestLongest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 30</value>
+  </data>
+  <data name="&gt;&gt;chkAutoLaunchGameOnStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpOverlay.Name" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="cboOverlayColor.Items1" xml:space="preserve">
+    <value>Magenta</value>
+  </data>
+  <data name="txtCycleTimeSeconds.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;cboQualifyFilter.Name" xml:space="preserve">
+    <value>cboQualifyFilter</value>
+  </data>
+  <data name="chkOnlyShowPlayers.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>450, 104</value>
+  </data>
+  <data name="&gt;&gt;chkIgnoreLevelTypeWhenSorting.Parent" xml:space="preserve">
+    <value>grpSortingOptions</value>
+  </data>
+  <data name="chkOnlyShowGold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 9</value>
+  </data>
+  <data name="&gt;&gt;cboWinsFilter.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="grpOverlayFontExample.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 262</value>
+  </data>
+  <data name="&gt;&gt;btnSelectFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPreviousWinsNote.Text" xml:space="preserve">
+    <value>(Before using tracker)</value>
+  </data>
+  <data name="lblGameExeLocation.Text" xml:space="preserve">
+    <value>Fall Guys Game Location</value>
+  </data>
+  <data name="chkShowTabs.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblFastestFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 66</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="grpStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>752, 47</value>
+  </data>
+  <data name="btnSelectFont.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="chkIgnoreLevelTypeWhenSorting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 18</value>
+  </data>
+  <data name="chkHideRoundInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 41</value>
+  </data>
+  <data name="cboFastestFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 64</value>
+  </data>
+  <data name="&gt;&gt;btnSelectFont.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="lblOverlayFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 12</value>
+  </data>
+  <data name="cboLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 102</value>
+  </data>
+  <data name="&gt;&gt;lblCycleTimeSecondsTag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblCycleTimeSecondsTag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 12</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowLongest.Name" xml:space="preserve">
+    <value>chkOnlyShowLongest</value>
+  </data>
+  <data name="&gt;&gt;cboWinsFilter.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;chkHideTimeInfo.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="chkCycleQualifyGold.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 9</value>
+  </data>
+  <data name="chkOnlyShowPlayers.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;cboQualifyFilter.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblPreviousWinsNote.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;lblOverlayFont.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;grpCycleFastestLongest.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="&gt;&gt;txtCycleTimeSeconds.Name" xml:space="preserve">
+    <value>txtCycleTimeSeconds</value>
+  </data>
+  <data name="grpSortingOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="grpSortingOptions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cboQualifyFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="&gt;&gt;lblPreviousWinsNote.Parent" xml:space="preserve">
+    <value>grpStats</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.Name" xml:space="preserve">
+    <value>lblLanguage</value>
+  </data>
+  <data name="lblLanguage.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 30</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowGold.Name" xml:space="preserve">
+    <value>chkOnlyShowGold</value>
+  </data>
+  <data name="lblLogPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 14</value>
+  </data>
+  <data name="&gt;&gt;chkHidePercentages.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblWinsFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="chkOnlyShowLongest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 16</value>
+  </data>
+  <data name="lblLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblCycleTimeSecondsTag.Text" xml:space="preserve">
+    <value>sec</value>
+  </data>
+  <data name="lblOverlayColor.Text" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="&gt;&gt;lblLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkCycleWinFinalStreak.Text" xml:space="preserve">
+    <value>Cycle Win / Final Streak</value>
+  </data>
+  <data name="chkCycleQualifyGold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 16</value>
+  </data>
+  <data name="&gt;&gt;txtLogPath.Name" xml:space="preserve">
+    <value>txtLogPath</value>
+  </data>
+  <data name="&gt;&gt;chkFlipped.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="grpCycleWinFinalStreak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 30</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboWinsFilter.Items3" xml:space="preserve">
+    <value>Week Stats</value>
+  </data>
+  <data name="&gt;&gt;lblPreviousWins.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpGameOptions.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkCyclePlayersPing.Name" xml:space="preserve">
+    <value>chkCyclePlayersPing</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="lblWinsFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="cboWinsFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 20</value>
+  </data>
+  <data name="txtLogPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="chkOnlyShowFastest.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblPreviousWinsNote.Name" xml:space="preserve">
+    <value>lblPreviousWinsNote</value>
+  </data>
+  <data name="lblOverlayColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>439, 141</value>
+  </data>
+  <data name="chkFlipped.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 167</value>
+  </data>
+  <data name="&gt;&gt;chkOverlayOnTop.Name" xml:space="preserve">
+    <value>chkOverlayOnTop</value>
+  </data>
+  <data name="lblOverlayColor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="&gt;&gt;chkFlipped.Name" xml:space="preserve">
+    <value>chkFlipped</value>
+  </data>
+  <data name="lblQualifyFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;dlgOverlayFont.Name" xml:space="preserve">
+    <value>dlgOverlayFont</value>
+  </data>
+  <data name="lblPreviousWinsNote.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkOnlyShowGold.Text" xml:space="preserve">
+    <value>Gold Only</value>
+  </data>
+  <data name="grpCycleQualifyGold.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 30</value>
+  </data>
+  <data name="&gt;&gt;lblOverlayFontExample.Parent" xml:space="preserve">
+    <value>grpOverlayFontExample</value>
+  </data>
+  <data name="chkOnlyShowLongest.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="cboQualifyFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>522, 41</value>
+  </data>
+  <data name="&gt;&gt;chkOverlayOnTop.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;grpCycleQualifyGold.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSelectFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 18</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 227</value>
+  </data>
+  <data name="chkOnlyShowFinalStreak.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 16</value>
+  </data>
+  <data name="&gt;&gt;grpCycleFastestLongest.Name" xml:space="preserve">
+    <value>grpCycleFastestLongest</value>
+  </data>
+  <data name="&gt;&gt;cboQualifyFilter.Parent" xml:space="preserve">
+    <value>grpOverlay</value>
+  </data>
+  <data name="chkHidePercentages.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dlgOverlayFont.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FontDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowPing.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="grpSortingOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>752, 41</value>
+  </data>
+  <data name="&gt;&gt;grpOverlay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cboOverlayColor.Items2" xml:space="preserve">
+    <value>Red</value>
+  </data>
+  <data name="chkOverlayOnTop.Text" xml:space="preserve">
+    <value>Always show on top</value>
+  </data>
+  <data name="grpCycleFastestLongest.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="chkOnlyShowFinalStreak.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="btnSelectFont.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 276</value>
+  </data>
+  <data name="&gt;&gt;chkOnlyShowLongest.Parent" xml:space="preserve">
+    <value>grpCycleFastestLongest</value>
+  </data>
+  <data name="chkOnlyShowPlayers.Text" xml:space="preserve">
+    <value>Players Only</value>
+  </data>
+  <data name="&gt;&gt;btnSelectFont.Name" xml:space="preserve">
+    <value>btnSelectFont</value>
+  </data>
+  <data name="chkOnlyShowFastest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 16</value>
+  </data>
+  <data name="lblLogPathNote.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtPreviousWins.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;txtLogPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="btnResetOverlayFont.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 18</value>
+  </data>
+  <data name="btnSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 3, 4, 3</value>
+  </data>
+  <data name="&gt;&gt;lblLogPathNote.Name" xml:space="preserve">
+    <value>lblLogPathNote</value>
+  </data>
+  <data name="&gt;&gt;chkHideWinsInfo.Name" xml:space="preserve">
+    <value>chkHideWinsInfo</value>
+  </data>
+  <data name="&gt;&gt;chkFlipped.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpStats.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;chkHideRoundInfo.Name" xml:space="preserve">
+    <value>chkHideRoundInfo</value>
+  </data>
+  <data name="btnSelectFont.Text" xml:space="preserve">
+    <value>Select Font</value>
+  </data>
+  <data name="chkAutoLaunchGameOnStart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="grpSortingOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 437</value>
+  </data>
+  <data name="&gt;&gt;btnResetOverlayFont.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
   <metadata name="dlgOverlayFont.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ko-KR</value>
   </metadata>
 </root>

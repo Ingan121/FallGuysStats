@@ -14,19 +14,19 @@ namespace FallGuysStats {
 
         private void LevelDetails_Load(object sender, System.EventArgs e) {
             if (LevelName == "Shows") {
-                Text = $"Show Stats";
+                Text = Resources.Strings.details_show_stats;
                 ShowStats = 2;
                 ClientSize = new Size(Width - 200, Height);
             } else if (LevelName == "Rounds") {
-                Text = $"Round Stats";
+                Text = Resources.Strings.details_round_stats;
                 ShowStats = 1;
                 ClientSize = new Size(Width + 85, Height);
             } else if (LevelName == "Finals") {
-                Text = $"Final Stats";
+                Text = Resources.Strings.details_final_stats;
                 ShowStats = 1;
                 ClientSize = new Size(Width + 85, Height);
             } else {
-                Text = $"Level Stats - {LevelName}";
+                Text = $"{Resources.Strings.details_level_stats} - {LevelName}";
             }
 
             gridDetails.DataSource = RoundDetails;
@@ -45,37 +45,37 @@ namespace FallGuysStats {
             gridDetails.Columns.Add(new DataGridViewImageColumn() { Name = "Medal", ImageLayout = DataGridViewImageCellLayout.Zoom, ToolTipText = "Medal" });
             gridDetails.Setup("Medal", pos++, 24, "", DataGridViewContentAlignment.MiddleCenter);
             if (ShowStats == 2) {
-                gridDetails.Setup("IsFinal", pos++, 40, "Final", DataGridViewContentAlignment.MiddleCenter);
+                gridDetails.Setup("IsFinal", pos++, 40, Resources.Strings.details_final, DataGridViewContentAlignment.MiddleCenter);
             } else {
                 gridDetails.Columns["IsFinal"].Visible = false;
             }
-            gridDetails.Setup("ShowID", pos++, 0, "Show", DataGridViewContentAlignment.MiddleRight);
-            gridDetails.Setup("Round", pos++, 50, ShowStats == 2 ? "Rounds" : "Round", DataGridViewContentAlignment.MiddleRight);
+            gridDetails.Setup("ShowID", pos++, 0, Resources.Strings.details_show, DataGridViewContentAlignment.MiddleRight);
+            gridDetails.Setup("Round", pos++, 50, ShowStats == 2 ? Resources.Strings.details_rounds : Resources.Strings.details_round, DataGridViewContentAlignment.MiddleRight);
             if (ShowStats == 1) {
-                gridDetails.Setup("Name", pos++, 105, "Level", DataGridViewContentAlignment.MiddleLeft);
+                gridDetails.Setup("Name", pos++, 105, Resources.Strings.details_level, DataGridViewContentAlignment.MiddleLeft);
             } else {
                 gridDetails.Columns["Name"].Visible = false;
             }
             if (ShowStats != 2) {
-                gridDetails.Setup("Players", pos++, 60, "Players", DataGridViewContentAlignment.MiddleRight);
+                gridDetails.Setup("Players", pos++, 60, Resources.Strings.details_players, DataGridViewContentAlignment.MiddleRight);
             } else {
                 gridDetails.Columns["Players"].Visible = false;
             }
-            gridDetails.Setup("Start", pos++, 105, "Start", DataGridViewContentAlignment.MiddleCenter);
-            gridDetails.Setup("End", pos++, 60, "Duration", DataGridViewContentAlignment.MiddleCenter);
+            gridDetails.Setup("Start", pos++, 105, Resources.Strings.details_start, DataGridViewContentAlignment.MiddleCenter);
+            gridDetails.Setup("End", pos++, 60, Resources.Strings.details_duration, DataGridViewContentAlignment.MiddleCenter);
             if (ShowStats != 2) {
-                gridDetails.Setup("Finish", pos++, 60, "Finish", DataGridViewContentAlignment.MiddleCenter);
+                gridDetails.Setup("Finish", pos++, 60, Resources.Strings.details_finish, DataGridViewContentAlignment.MiddleCenter);
             } else {
                 gridDetails.Columns["Finish"].Visible = false;
             }
             if (ShowStats != 2) {
-                gridDetails.Setup("Position", pos++, 60, "Position", DataGridViewContentAlignment.MiddleRight);
-                gridDetails.Setup("Score", pos++, 60, "Score", DataGridViewContentAlignment.MiddleRight);
+                gridDetails.Setup("Position", pos++, 60, Resources.Strings.details_position, DataGridViewContentAlignment.MiddleRight);
+                gridDetails.Setup("Score", pos++, 60, Resources.Strings.details_score, DataGridViewContentAlignment.MiddleRight);
             } else {
                 gridDetails.Columns["Position"].Visible = false;
                 gridDetails.Columns["Score"].Visible = false;
             }
-            gridDetails.Setup("Kudos", pos++, 60, "Kudos", DataGridViewContentAlignment.MiddleRight);
+            gridDetails.Setup("Kudos", pos++, 60, Resources.Strings.details_kudos, DataGridViewContentAlignment.MiddleRight);
 
             bool colorSwitch = true;
             int lastShow = -1;
@@ -110,24 +110,24 @@ namespace FallGuysStats {
                 if (info.Qualified) {
                     switch (info.Tier) {
                         case 0:
-                            gridDetails.Rows[e.RowIndex].Cells[e.ColumnIndex].ToolTipText = "Pink";
+                            gridDetails.Rows[e.RowIndex].Cells[e.ColumnIndex].ToolTipText = Resources.Strings.details_pink;
                             e.Value = Properties.Resources.medal_pink;
                             break;
                         case 1:
-                            gridDetails.Rows[e.RowIndex].Cells[e.ColumnIndex].ToolTipText = "Gold";
+                            gridDetails.Rows[e.RowIndex].Cells[e.ColumnIndex].ToolTipText = Resources.Strings.details_gold;
                             e.Value = Properties.Resources.medal_gold;
                             break;
                         case 2:
-                            gridDetails.Rows[e.RowIndex].Cells[e.ColumnIndex].ToolTipText = "Silver";
+                            gridDetails.Rows[e.RowIndex].Cells[e.ColumnIndex].ToolTipText = Resources.Strings.details_silver;
                             e.Value = Properties.Resources.medal_silver;
                             break;
                         case 3:
-                            gridDetails.Rows[e.RowIndex].Cells[e.ColumnIndex].ToolTipText = "Bronze";
+                            gridDetails.Rows[e.RowIndex].Cells[e.ColumnIndex].ToolTipText = Resources.Strings.details_bronze;
                             e.Value = Properties.Resources.medal_bronze;
                             break;
                     }
                 } else {
-                    gridDetails.Rows[e.RowIndex].Cells[e.ColumnIndex].ToolTipText = "Eliminated";
+                    gridDetails.Rows[e.RowIndex].Cells[e.ColumnIndex].ToolTipText = Resources.Strings.details_eliminated;
                     e.Value = Properties.Resources.medal_eliminated;
                 }
             } else if (gridDetails.Columns[e.ColumnIndex].Name == "Name") {
@@ -208,7 +208,7 @@ namespace FallGuysStats {
                         rows.Add((RoundInfo)gridDetails.Rows[cell.RowIndex].DataBoundItem);
                     }
 
-                    if (MessageBox.Show(this, $"Are you sure you want to remove the selected ({rows.Count}) Shows?", "Remove Shows", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK) {
+                    if (MessageBox.Show(this, string.Format(Resources.Strings.details_remove_shows_msg, rows.Count), Resources.Strings.details_remove_shows, MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK) {
                         gridDetails.DataSource = null;
 
                         lock (StatsForm.StatsDB) {
@@ -233,7 +233,7 @@ namespace FallGuysStats {
                     Close();
                 }
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

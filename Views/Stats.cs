@@ -21,7 +21,7 @@ namespace FallGuysStats {
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new Stats());
             } catch (Exception ex) {
-                MessageBox.Show(ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private static string LOGNAME = "Player.log";
@@ -63,6 +63,7 @@ namespace FallGuysStats {
         private int askedPreviousShows = 0;
         private TextInfo textInfo;
         public Stats() {
+            //Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo("en");
             InitializeComponent();
 
             Text = $"Fall Guys Stats v{Assembly.GetExecutingAssembly().GetName().Version.ToString(2)}";
@@ -100,6 +101,8 @@ namespace FallGuysStats {
             }
 
             UpdateHoopsieLegends();
+
+            gridDetails_ColumnHeaderMouseClick(null, null); // Sort
 
             RoundDetails.EnsureIndex(x => x.Name);
             RoundDetails.EnsureIndex(x => x.ShowID);
@@ -519,7 +522,7 @@ namespace FallGuysStats {
         }
         private void UpdateHoopsieLegends() {
             LevelStats level = StatLookup["round_hoops_blockade_solo"];
-            string newName = CurrentSettings.HoopsieHeros ? "Hoopsie Heroes" : "Hoopsie Legends";
+            string newName = CurrentSettings.HoopsieHeros ? "Hoopsie Heroes" : Resources.Strings.round_hoopsie_legends;
             if (level.Name != newName) {
                 level.Name = newName;
                 gridDetails.Invalidate();
@@ -675,7 +678,7 @@ namespace FallGuysStats {
                     case 4: menuSessionStats.Checked = true; menuStats_Click(menuSessionStats, null); break;
                 }
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void LogFile_OnError(string error) {
@@ -684,7 +687,7 @@ namespace FallGuysStats {
                     if (InvokeRequired) {
                         Invoke((Action<string>)LogFile_OnError, error);
                     } else {
-                        MessageBox.Show(this, error, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show(this, error, Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 } catch { }
             }
@@ -819,7 +822,7 @@ namespace FallGuysStats {
                     } catch { }
                 }
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private bool IsInStatsFilter(DateTime showEnd) {
@@ -835,7 +838,7 @@ namespace FallGuysStats {
                 (menuPartyStats.Checked && info.InParty);
         }
         public string GetCurrentFilter() {
-            return menuAllStats.Checked ? "ALL TIME" : menuSeasonStats.Checked ? "SEASON" : menuWeekStats.Checked ? "WEEK" : menuDayStats.Checked ? "DAY" : "SESSION";
+            return menuAllStats.Checked ? Resources.Strings.overlay_all_time : menuSeasonStats.Checked ? Resources.Strings.overlay_season : menuWeekStats.Checked ? Resources.Strings.overlay_week : menuDayStats.Checked ? Resources.Strings.overlay_day : Resources.Strings.overlay_session;
         }
         public StatSummary GetLevelInfo(string name) {
             StatSummary summary = new StatSummary();
@@ -981,17 +984,17 @@ namespace FallGuysStats {
         }
         private void UpdateTotals() {
             try {
-                lblTotalRounds.Text = $"Rounds: {Rounds}";
-                lblTotalShows.Text = $"Shows: {Shows}";
-                lblTotalTime.Text = $"Time Played: {(int)Duration.TotalHours}:{Duration:mm\\:ss}";
+                lblTotalRounds.Text = $"{Resources.Strings.stats_rounds}: {Rounds}";
+                lblTotalShows.Text = $"{Resources.Strings.stats_shows}: {Shows}";
+                lblTotalTime.Text = $"{Resources.Strings.stats_time_played}: {(int)Duration.TotalHours}:{Duration:mm\\:ss}";
                 float winChance = (float)Wins * 100 / (Shows == 0 ? 1 : Shows);
-                lblTotalWins.Text = $"Wins: {Wins} ({winChance:0.0} %)";
+                lblTotalWins.Text = $"{Resources.Strings.stats_wins}: {Wins} ({winChance:0.0} %)";
                 float finalChance = (float)Finals * 100 / (Shows == 0 ? 1 : Shows);
-                lblTotalFinals.Text = $"Finals: {Finals} ({finalChance:0.0} %)";
-                lblKudos.Text = $"Kudos: {Kudos}";
+                lblTotalFinals.Text = $"{Resources.Strings.stats_finals}: {Finals} ({finalChance:0.0} %)";
+                lblKudos.Text = $"{Resources.Strings.stats_kudos}: {Kudos}";
                 gridDetails.Refresh();
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void gridDetails_DataSourceChanged(object sender, EventArgs e) {
@@ -1001,18 +1004,18 @@ namespace FallGuysStats {
 
                 gridDetails.Columns["AveKudos"].Visible = false;
                 gridDetails.Columns["AveDuration"].Visible = false;
-                gridDetails.Setup("Name", pos++, 0, "Level Name", DataGridViewContentAlignment.MiddleLeft);
-                gridDetails.Setup("Played", pos++, 55, "Played", DataGridViewContentAlignment.MiddleRight);
-                gridDetails.Setup("Qualified", pos++, 65, "Qualified", DataGridViewContentAlignment.MiddleRight);
-                gridDetails.Setup("Gold", pos++, 50, "Gold", DataGridViewContentAlignment.MiddleRight);
-                gridDetails.Setup("Silver", pos++, 50, "Silver", DataGridViewContentAlignment.MiddleRight);
-                gridDetails.Setup("Bronze", pos++, 50, "Bronze", DataGridViewContentAlignment.MiddleRight);
-                gridDetails.Setup("Kudos", pos++, 60, "Kudos", DataGridViewContentAlignment.MiddleRight);
-                gridDetails.Setup("Fastest", pos++, 60, "Fastest", DataGridViewContentAlignment.MiddleRight);
-                gridDetails.Setup("Longest", pos++, 60, "Longest", DataGridViewContentAlignment.MiddleRight);
-                gridDetails.Setup("AveFinish", pos++, 60, "Average", DataGridViewContentAlignment.MiddleRight);
+                gridDetails.Setup("Name", pos++, 0, Resources.Strings.stats_level_name, DataGridViewContentAlignment.MiddleLeft);
+                gridDetails.Setup("Played", pos++, 55, Resources.Strings.stats_played, DataGridViewContentAlignment.MiddleRight);
+                gridDetails.Setup("Qualified", pos++, 65, Resources.Strings.stats_qualified, DataGridViewContentAlignment.MiddleRight);
+                gridDetails.Setup("Gold", pos++, 50, Resources.Strings.stats_gold, DataGridViewContentAlignment.MiddleRight);
+                gridDetails.Setup("Silver", pos++, 50, Resources.Strings.stats_silver, DataGridViewContentAlignment.MiddleRight);
+                gridDetails.Setup("Bronze", pos++, 50, Resources.Strings.stats_bronze, DataGridViewContentAlignment.MiddleRight);
+                gridDetails.Setup("Kudos", pos++, 60, Resources.Strings.stats_kudos, DataGridViewContentAlignment.MiddleRight);
+                gridDetails.Setup("Fastest", pos++, 60, Resources.Strings.stats_fastest, DataGridViewContentAlignment.MiddleRight);
+                gridDetails.Setup("Longest", pos++, 60, Resources.Strings.stats_longest, DataGridViewContentAlignment.MiddleRight);
+                gridDetails.Setup("AveFinish", pos++, 60, Resources.Strings.stats_average, DataGridViewContentAlignment.MiddleRight);
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void gridDetails_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e) {
@@ -1091,7 +1094,7 @@ namespace FallGuysStats {
                         break;
                 }
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void gridDetails_CellMouseEnter(object sender, DataGridViewCellEventArgs e) {
@@ -1102,7 +1105,7 @@ namespace FallGuysStats {
                     gridDetails.Cursor = Cursors.Default;
                 }
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void gridDetails_CellClick(object sender, DataGridViewCellEventArgs e) {
@@ -1123,12 +1126,12 @@ namespace FallGuysStats {
                     ToggleWinPercentageDisplay();
                 }
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void gridDetails_ColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e) {
-            string columnName = gridDetails.Columns[e.ColumnIndex].Name;
-            SortOrder sortOrder = gridDetails.GetSortOrder(columnName);
+            string columnName = e != null ? gridDetails.Columns[e.ColumnIndex].Name : "Name";
+            SortOrder sortOrder = e != null ? gridDetails.GetSortOrder(columnName) : SortOrder.None;
 
             StatDetails.Sort(delegate (LevelStats one, LevelStats two) {
                 LevelType oneType = one.IsFinal ? LevelType.Hunt : one.Type == LevelType.Hunt ? LevelType.Race : one.Type;
@@ -1317,7 +1320,7 @@ namespace FallGuysStats {
             try {
                 Process.Start(@"https://github.com/ShootMe/FallGuysStats");
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void UpdateGameExeLocation() {
@@ -1332,7 +1335,7 @@ namespace FallGuysStats {
         private void LaunchGame(bool ignoreExisting) {
             try {
                 UpdateGameExeLocation();
-
+                MessageBox.Show(CurrentSettings.GameExeLocation);
                 if (!string.IsNullOrEmpty(CurrentSettings.GameExeLocation) && File.Exists(CurrentSettings.GameExeLocation)) {
                     Process[] processes = Process.GetProcesses();
                     string fallGuys = Path.GetFileNameWithoutExtension(CurrentSettings.GameExeLocation);
@@ -1349,7 +1352,7 @@ namespace FallGuysStats {
                     Process.Start(CurrentSettings.GameExeLocation);
                 }
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private string FindGameExeLocation() {
@@ -1382,7 +1385,7 @@ namespace FallGuysStats {
                     }
                 }
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
             return string.Empty;
@@ -1391,28 +1394,28 @@ namespace FallGuysStats {
             try {
                 ShowFinals();
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void lblTotalShows_Click(object sender, EventArgs e) {
             try {
                 ShowShows();
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void lblTotalRounds_Click(object sender, EventArgs e) {
             try {
                 ShowRounds();
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void lblTotalWins_Click(object sender, EventArgs e) {
             try {
                 ShowWinGraph();
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error Updating", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error_updating, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void menuStats_Click(object sender, EventArgs e) {
@@ -1503,14 +1506,14 @@ namespace FallGuysStats {
                 LogFile_OnParsedLogLines(rounds);
                 loadingExisting = false;
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void menuUpdate_Click(object sender, EventArgs e) {
             try {
                 CheckForUpdate(false);
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error Updating", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error_updating, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         public bool CheckForUpdate(bool silent) {
@@ -1582,7 +1585,7 @@ namespace FallGuysStats {
                     }
                 }
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void menuOverlay_Click(object sender, EventArgs e) {
@@ -1620,11 +1623,12 @@ namespace FallGuysStats {
         private void infoStrip_MouseLeave(object sender, EventArgs e) {
             Cursor = Cursors.Default;
         }
+
         private void menuLaunchFallGuys_Click(object sender, EventArgs e) {
             try {
                 LaunchGame(false);
             } catch (Exception ex) {
-                MessageBox.Show(this, ex.ToString(), "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(this, ex.ToString(), Resources.Strings.ui_error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         public bool IsOnScreen(int x, int y, int w) {
